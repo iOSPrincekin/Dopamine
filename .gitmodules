@@ -1,15 +1,19 @@
 [submodule "BaseBin/ChOma"]
 	path = BaseBin/ChOma
-	url = https://github.com/opa334/ChOma
+	url = git@github.com:opa334/ChOma.git
+
 [submodule "BaseBin/XPF"]
 	path = BaseBin/XPF
-	url = https://github.com/opa334/XPF
+	url = git@github.com:opa334/XPF.git
+
 [submodule "Exploits/kfd/src/kfd"]
 	path = Application/Dopamine/Dopamine/Exploits/kfd/kfd
-	url = https://github.com/opa334/kfd
+	url = git@github.com:opa334/kfd.git
+
 [submodule "BaseBin/opainject"]
 	path = BaseBin/opainject
-	url = https://github.com/opa334/opainject
+	url = git@github.com:opa334/opainject.git
+
 [submodule "BaseBin/_external/modules/litehook"]
 	path = BaseBin/_external/modules/litehook
-	url = https://github.com/opa334/litehook
+	url = git@github.com:opa334/litehook.git
