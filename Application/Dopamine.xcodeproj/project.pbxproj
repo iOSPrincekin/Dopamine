@@ -89,6 +89,7 @@
 		8C2B1FF42B53492B009BA166 /* dmaFail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2B1FDF2B532374009BA166 /* dmaFail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C2B1FF52B534C2F009BA166 /* dmaFail.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B1FF12B53251E009BA166 /* dmaFail.c */; };
 		8C46D7252B588973002899DB /* libzstd in Frameworks */ = {isa = PBXBuildFile; productRef = 8C46D7242B588973002899DB /* libzstd */; };
+		8C4ABEB62B52094100B43C9B /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; };
 		8C4ABEB92B520E7B00B43C9B /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; platformFilter = ios; };
 		8C4ABEBE2B52274300B43C9B /* DOPreferenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABEBD2B52274300B43C9B /* DOPreferenceManager.m */; };
 		8C512B912B5C9F9100C6F14A /* sileo.deb in Resources */ = {isa = PBXBuildFile; fileRef = 8C512B8B2B5C9DE800C6F14A /* sileo.deb */; };
@@ -197,6 +198,7 @@
 		8CDD08462B4F6DD800A32B61 /* libchoma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08432B4F6DD800A32B61 /* libchoma.dylib */; };
 		8CDD08472B4F6DD800A32B61 /* libxpf.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08442B4F6DD800A32B61 /* libxpf.dylib */; };
 		8CDD08482B4F6DF100A32B61 /* libxpf.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08442B4F6DD800A32B61 /* libxpf.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		8CDD08492B4F6DF500A32B61 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8CDD084A2B4F6DF800A32B61 /* libchoma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08432B4F6DD800A32B61 /* libchoma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9B9E5B8A2E31E373000AE2FD /* physrw_pte.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B572E31E36C000AE2FD /* physrw_pte.c */; };
 		9B9E5B8B2E31E373000AE2FD /* kcall_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B5A2E31E36C000AE2FD /* kcall_arm64.c */; };
@@ -272,6 +274,7 @@
 			dstSubfolderSpec = 6;
 			files = (
 				8CDD084A2B4F6DF800A32B61 /* libchoma.dylib in Embed Libraries */,
+				8CDD08492B4F6DF500A32B61 /* libjailbreak.dylib in Embed Libraries */,
 				8CDD08482B4F6DF100A32B61 /* libxpf.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
@@ -671,6 +674,7 @@
 				9B9E5BA32E320005000AE2FD /* libarchive.2.tbd in Frameworks */,
 				8C029F662B4E2E970071DE58 /* libcompression.tbd in Frameworks */,
 				8C58E5592B7EAF8000E3ADAA /* CoreServices.framework in Frameworks */,
+				8C4ABEB62B52094100B43C9B /* libjailbreak.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
