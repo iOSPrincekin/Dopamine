@@ -200,30 +200,6 @@
 		8CDD08482B4F6DF100A32B61 /* libxpf.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08442B4F6DD800A32B61 /* libxpf.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8CDD08492B4F6DF500A32B61 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8CDD084A2B4F6DF800A32B61 /* libchoma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08432B4F6DD800A32B61 /* libchoma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		9B9E5B8A2E31E373000AE2FD /* physrw_pte.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B572E31E36C000AE2FD /* physrw_pte.c */; };
-		9B9E5B8B2E31E373000AE2FD /* kcall_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B5A2E31E36C000AE2FD /* kcall_arm64.c */; };
-		9B9E5B8C2E31E373000AE2FD /* codesign.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B5B2E31E36C000AE2FD /* codesign.m */; };
-		9B9E5B8D2E31E373000AE2FD /* trustcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B5C2E31E36C000AE2FD /* trustcache.c */; };
-		9B9E5B8E2E31E373000AE2FD /* jbclient_mach.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B5D2E31E36C000AE2FD /* jbclient_mach.c */; };
-		9B9E5B8F2E31E373000AE2FD /* jbserver.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B5E2E31E36C000AE2FD /* jbserver.c */; };
-		9B9E5B902E31E373000AE2FD /* jbserver_boomerang.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B602E31E36C000AE2FD /* jbserver_boomerang.c */; };
-		9B9E5B912E31E373000AE2FD /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B652E31E36D000AE2FD /* main.c */; };
-		9B9E5B922E31E373000AE2FD /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B662E31E36D000AE2FD /* info.c */; };
-		9B9E5B932E31E373000AE2FD /* kcall_Fugu14.S in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B6A2E31E36D000AE2FD /* kcall_Fugu14.S */; };
-		9B9E5B942E31E373000AE2FD /* physrw.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B6B2E31E36D000AE2FD /* physrw.c */; };
-		9B9E5B952E31E373000AE2FD /* kalloc_pt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B6C2E31E36D000AE2FD /* kalloc_pt.m */; };
-		9B9E5B962E31E373000AE2FD /* jbclient_xpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B6D2E31E36D000AE2FD /* jbclient_xpc.c */; };
-		9B9E5B972E31E373000AE2FD /* signatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B6E2E31E36E000AE2FD /* signatures.c */; };
-		9B9E5B982E31E373000AE2FD /* jbroot.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B702E31E370000AE2FD /* jbroot.c */; };
-		9B9E5B992E31E373000AE2FD /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B722E31E371000AE2FD /* util.m */; };
-		9B9E5B9A2E31E373000AE2FD /* primitives.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B742E31E371000AE2FD /* primitives.c */; };
-		9B9E5B9B2E31E373000AE2FD /* kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B752E31E371000AE2FD /* kernel.c */; };
-		9B9E5B9C2E31E373000AE2FD /* primitives_IOSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B782E31E371000AE2FD /* primitives_IOSurface.m */; };
-		9B9E5B9D2E31E373000AE2FD /* basebin_gen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B7C2E31E371000AE2FD /* basebin_gen.m */; };
-		9B9E5B9E2E31E373000AE2FD /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B7E2E31E372000AE2FD /* util.c */; };
-		9B9E5B9F2E31E373000AE2FD /* kcall_Fugu14.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B7F2E31E372000AE2FD /* kcall_Fugu14.c */; };
-		9B9E5BA02E31E373000AE2FD /* carboncopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B812E31E372000AE2FD /* carboncopy.m */; };
-		9B9E5BA12E31E373000AE2FD /* translation.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B9E5B872E31E372000AE2FD /* translation.c */; };
 		9B9E5BA32E320005000AE2FD /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */; };
 		9B9E5BA52E32009E000AE2FD /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA42E320099000AE2FD /* libbsm.tbd */; };
 /* End PBXBuildFile section */
@@ -562,58 +538,6 @@
 		8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjailbreak.dylib; path = ../BaseBin/.build/libjailbreak.dylib; sourceTree = "<group>"; };
 		8CDD08432B4F6DD800A32B61 /* libchoma.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libchoma.dylib; path = ../BaseBin/.build/libchoma.dylib; sourceTree = "<group>"; };
 		8CDD08442B4F6DD800A32B61 /* libxpf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxpf.dylib; path = ../BaseBin/.build/libxpf.dylib; sourceTree = "<group>"; };
-		9B9E5B562E31E36C000AE2FD /* primitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = primitives.h; path = ../../../BaseBin/libjailbreak/src/primitives.h; sourceTree = "<group>"; };
-		9B9E5B572E31E36C000AE2FD /* physrw_pte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physrw_pte.c; path = ../../../BaseBin/libjailbreak/src/physrw_pte.c; sourceTree = "<group>"; };
-		9B9E5B582E31E36C000AE2FD /* machine_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = machine_info.h; path = ../../../BaseBin/libjailbreak/src/machine_info.h; sourceTree = "<group>"; };
-		9B9E5B592E31E36C000AE2FD /* jbroot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbroot.h; path = ../../../BaseBin/libjailbreak/src/jbroot.h; sourceTree = "<group>"; };
-		9B9E5B5A2E31E36C000AE2FD /* kcall_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kcall_arm64.c; path = ../../../BaseBin/libjailbreak/src/kcall_arm64.c; sourceTree = "<group>"; };
-		9B9E5B5B2E31E36C000AE2FD /* codesign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = codesign.m; path = ../../../BaseBin/libjailbreak/src/codesign.m; sourceTree = "<group>"; };
-		9B9E5B5C2E31E36C000AE2FD /* trustcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trustcache.c; path = ../../../BaseBin/libjailbreak/src/trustcache.c; sourceTree = "<group>"; };
-		9B9E5B5D2E31E36C000AE2FD /* jbclient_mach.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbclient_mach.c; path = ../../../BaseBin/libjailbreak/src/jbclient_mach.c; sourceTree = "<group>"; };
-		9B9E5B5E2E31E36C000AE2FD /* jbserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbserver.c; path = ../../../BaseBin/libjailbreak/src/jbserver.c; sourceTree = "<group>"; };
-		9B9E5B5F2E31E36C000AE2FD /* carboncopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = carboncopy.h; path = ../../../BaseBin/libjailbreak/src/carboncopy.h; sourceTree = "<group>"; };
-		9B9E5B602E31E36C000AE2FD /* jbserver_boomerang.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbserver_boomerang.c; path = ../../../BaseBin/libjailbreak/src/jbserver_boomerang.c; sourceTree = "<group>"; };
-		9B9E5B612E31E36D000AE2FD /* primitives_IOSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = primitives_IOSurface.h; path = ../../../BaseBin/libjailbreak/src/primitives_IOSurface.h; sourceTree = "<group>"; };
-		9B9E5B622E31E36D000AE2FD /* jbserver_domains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbserver_domains.h; path = ../../../BaseBin/libjailbreak/src/jbserver_domains.h; sourceTree = "<group>"; };
-		9B9E5B632E31E36D000AE2FD /* physrw_pte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physrw_pte.h; path = ../../../BaseBin/libjailbreak/src/physrw_pte.h; sourceTree = "<group>"; };
-		9B9E5B642E31E36D000AE2FD /* codesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codesign.h; path = ../../../BaseBin/libjailbreak/src/codesign.h; sourceTree = "<group>"; };
-		9B9E5B652E31E36D000AE2FD /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../../BaseBin/libjailbreak/src/main.c; sourceTree = "<group>"; };
-		9B9E5B662E31E36D000AE2FD /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = info.c; path = ../../../BaseBin/libjailbreak/src/info.c; sourceTree = "<group>"; };
-		9B9E5B672E31E36D000AE2FD /* libjailbreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libjailbreak.h; path = ../../../BaseBin/libjailbreak/src/libjailbreak.h; sourceTree = "<group>"; };
-		9B9E5B682E31E36D000AE2FD /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = ../../../BaseBin/libjailbreak/src/util.h; sourceTree = "<group>"; };
-		9B9E5B692E31E36D000AE2FD /* kcall_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kcall_arm64.h; path = ../../../BaseBin/libjailbreak/src/kcall_arm64.h; sourceTree = "<group>"; };
-		9B9E5B6A2E31E36D000AE2FD /* kcall_Fugu14.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = kcall_Fugu14.S; path = ../../../BaseBin/libjailbreak/src/kcall_Fugu14.S; sourceTree = "<group>"; };
-		9B9E5B6B2E31E36D000AE2FD /* physrw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physrw.c; path = ../../../BaseBin/libjailbreak/src/physrw.c; sourceTree = "<group>"; };
-		9B9E5B6C2E31E36D000AE2FD /* kalloc_pt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kalloc_pt.m; path = ../../../BaseBin/libjailbreak/src/kalloc_pt.m; sourceTree = "<group>"; };
-		9B9E5B6D2E31E36D000AE2FD /* jbclient_xpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbclient_xpc.c; path = ../../../BaseBin/libjailbreak/src/jbclient_xpc.c; sourceTree = "<group>"; };
-		9B9E5B6E2E31E36E000AE2FD /* signatures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signatures.c; path = ../../../BaseBin/libjailbreak/src/signatures.c; sourceTree = "<group>"; };
-		9B9E5B6F2E31E370000AE2FD /* pte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pte.h; path = ../../../BaseBin/libjailbreak/src/pte.h; sourceTree = "<group>"; };
-		9B9E5B702E31E370000AE2FD /* jbroot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbroot.c; path = ../../../BaseBin/libjailbreak/src/jbroot.c; sourceTree = "<group>"; };
-		9B9E5B712E31E370000AE2FD /* jbserver_boomerang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbserver_boomerang.h; path = ../../../BaseBin/libjailbreak/src/jbserver_boomerang.h; sourceTree = "<group>"; };
-		9B9E5B722E31E371000AE2FD /* util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = util.m; path = ../../../BaseBin/libjailbreak/src/util.m; sourceTree = "<group>"; };
-		9B9E5B732E31E371000AE2FD /* signatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = signatures.h; path = ../../../BaseBin/libjailbreak/src/signatures.h; sourceTree = "<group>"; };
-		9B9E5B742E31E371000AE2FD /* primitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = primitives.c; path = ../../../BaseBin/libjailbreak/src/primitives.c; sourceTree = "<group>"; };
-		9B9E5B752E31E371000AE2FD /* kernel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kernel.c; path = ../../../BaseBin/libjailbreak/src/kernel.c; sourceTree = "<group>"; };
-		9B9E5B762E31E371000AE2FD /* primitives_external.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = primitives_external.h; path = ../../../BaseBin/libjailbreak/src/primitives_external.h; sourceTree = "<group>"; };
-		9B9E5B772E31E371000AE2FD /* pvh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pvh.h; path = ../../../BaseBin/libjailbreak/src/pvh.h; sourceTree = "<group>"; };
-		9B9E5B782E31E371000AE2FD /* primitives_IOSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = primitives_IOSurface.m; path = ../../../BaseBin/libjailbreak/src/primitives_IOSurface.m; sourceTree = "<group>"; };
-		9B9E5B792E31E371000AE2FD /* basebin_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basebin_gen.h; path = ../../../BaseBin/libjailbreak/src/basebin_gen.h; sourceTree = "<group>"; };
-		9B9E5B7A2E31E371000AE2FD /* physrw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physrw.h; path = ../../../BaseBin/libjailbreak/src/physrw.h; sourceTree = "<group>"; };
-		9B9E5B7B2E31E371000AE2FD /* kalloc_pt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kalloc_pt.h; path = ../../../BaseBin/libjailbreak/src/kalloc_pt.h; sourceTree = "<group>"; };
-		9B9E5B7C2E31E371000AE2FD /* basebin_gen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = basebin_gen.m; path = ../../../BaseBin/libjailbreak/src/basebin_gen.m; sourceTree = "<group>"; };
-		9B9E5B7D2E31E371000AE2FD /* kernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kernel.h; path = ../../../BaseBin/libjailbreak/src/kernel.h; sourceTree = "<group>"; };
-		9B9E5B7E2E31E372000AE2FD /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = ../../../BaseBin/libjailbreak/src/util.c; sourceTree = "<group>"; };
-		9B9E5B7F2E31E372000AE2FD /* kcall_Fugu14.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kcall_Fugu14.c; path = ../../../BaseBin/libjailbreak/src/kcall_Fugu14.c; sourceTree = "<group>"; };
-		9B9E5B802E31E372000AE2FD /* jbserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbserver.h; path = ../../../BaseBin/libjailbreak/src/jbserver.h; sourceTree = "<group>"; };
-		9B9E5B812E31E372000AE2FD /* carboncopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = carboncopy.m; path = ../../../BaseBin/libjailbreak/src/carboncopy.m; sourceTree = "<group>"; };
-		9B9E5B822E31E372000AE2FD /* trustcache_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trustcache_structs.h; path = ../../../BaseBin/libjailbreak/src/trustcache_structs.h; sourceTree = "<group>"; };
-		9B9E5B832E31E372000AE2FD /* translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = translation.h; path = ../../../BaseBin/libjailbreak/src/translation.h; sourceTree = "<group>"; };
-		9B9E5B842E31E372000AE2FD /* trustcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trustcache.h; path = ../../../BaseBin/libjailbreak/src/trustcache.h; sourceTree = "<group>"; };
-		9B9E5B852E31E372000AE2FD /* jbclient_mach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbclient_mach.h; path = ../../../BaseBin/libjailbreak/src/jbclient_mach.h; sourceTree = "<group>"; };
-		9B9E5B862E31E372000AE2FD /* info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = info.h; path = ../../../BaseBin/libjailbreak/src/info.h; sourceTree = "<group>"; };
-		9B9E5B872E31E372000AE2FD /* translation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = translation.c; path = ../../../BaseBin/libjailbreak/src/translation.c; sourceTree = "<group>"; };
-		9B9E5B882E31E373000AE2FD /* kcall_Fugu14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kcall_Fugu14.h; path = ../../../BaseBin/libjailbreak/src/kcall_Fugu14.h; sourceTree = "<group>"; };
-		9B9E5B892E31E373000AE2FD /* jbclient_xpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbclient_xpc.h; path = ../../../BaseBin/libjailbreak/src/jbclient_xpc.h; sourceTree = "<group>"; };
 		9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.2.tbd; path = usr/lib/libarchive.2.tbd; sourceTree = SDKROOT; };
 		9B9E5BA42E320099000AE2FD /* libbsm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.tbd; path = usr/lib/libbsm.tbd; sourceTree = SDKROOT; };
 		C075B0CB2B8F2BCE009A26BB /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -859,7 +783,6 @@
 		8C029F402B4DFCFE0071DE58 /* Jailbreak */ = {
 			isa = PBXGroup;
 			children = (
-				9B9E5B552E31E358000AE2FD /* libjailbreak */,
 				8C029F442B4DFD910071DE58 /* DOBootstrapper.h */,
 				8C029F452B4DFD910071DE58 /* DOBootstrapper.m */,
 				8C029F612B4E2E140071DE58 /* DOJailbreaker.h */,
@@ -1220,65 +1143,6 @@
 				8C2B1FC72B52FB56009BA166 /* Info.plist */,
 			);
 			path = kfd;
-			sourceTree = "<group>";
-		};
-		9B9E5B552E31E358000AE2FD /* libjailbreak */ = {
-			isa = PBXGroup;
-			children = (
-				9B9E5B792E31E371000AE2FD /* basebin_gen.h */,
-				9B9E5B7C2E31E371000AE2FD /* basebin_gen.m */,
-				9B9E5B5F2E31E36C000AE2FD /* carboncopy.h */,
-				9B9E5B812E31E372000AE2FD /* carboncopy.m */,
-				9B9E5B642E31E36D000AE2FD /* codesign.h */,
-				9B9E5B5B2E31E36C000AE2FD /* codesign.m */,
-				9B9E5B662E31E36D000AE2FD /* info.c */,
-				9B9E5B862E31E372000AE2FD /* info.h */,
-				9B9E5B5D2E31E36C000AE2FD /* jbclient_mach.c */,
-				9B9E5B852E31E372000AE2FD /* jbclient_mach.h */,
-				9B9E5B6D2E31E36D000AE2FD /* jbclient_xpc.c */,
-				9B9E5B892E31E373000AE2FD /* jbclient_xpc.h */,
-				9B9E5B702E31E370000AE2FD /* jbroot.c */,
-				9B9E5B592E31E36C000AE2FD /* jbroot.h */,
-				9B9E5B602E31E36C000AE2FD /* jbserver_boomerang.c */,
-				9B9E5B712E31E370000AE2FD /* jbserver_boomerang.h */,
-				9B9E5B622E31E36D000AE2FD /* jbserver_domains.h */,
-				9B9E5B5E2E31E36C000AE2FD /* jbserver.c */,
-				9B9E5B802E31E372000AE2FD /* jbserver.h */,
-				9B9E5B7B2E31E371000AE2FD /* kalloc_pt.h */,
-				9B9E5B6C2E31E36D000AE2FD /* kalloc_pt.m */,
-				9B9E5B5A2E31E36C000AE2FD /* kcall_arm64.c */,
-				9B9E5B692E31E36D000AE2FD /* kcall_arm64.h */,
-				9B9E5B7F2E31E372000AE2FD /* kcall_Fugu14.c */,
-				9B9E5B882E31E373000AE2FD /* kcall_Fugu14.h */,
-				9B9E5B6A2E31E36D000AE2FD /* kcall_Fugu14.S */,
-				9B9E5B752E31E371000AE2FD /* kernel.c */,
-				9B9E5B7D2E31E371000AE2FD /* kernel.h */,
-				9B9E5B672E31E36D000AE2FD /* libjailbreak.h */,
-				9B9E5B582E31E36C000AE2FD /* machine_info.h */,
-				9B9E5B652E31E36D000AE2FD /* main.c */,
-				9B9E5B572E31E36C000AE2FD /* physrw_pte.c */,
-				9B9E5B632E31E36D000AE2FD /* physrw_pte.h */,
-				9B9E5B6B2E31E36D000AE2FD /* physrw.c */,
-				9B9E5B7A2E31E371000AE2FD /* physrw.h */,
-				9B9E5B762E31E371000AE2FD /* primitives_external.h */,
-				9B9E5B612E31E36D000AE2FD /* primitives_IOSurface.h */,
-				9B9E5B782E31E371000AE2FD /* primitives_IOSurface.m */,
-				9B9E5B742E31E371000AE2FD /* primitives.c */,
-				9B9E5B562E31E36C000AE2FD /* primitives.h */,
-				9B9E5B6F2E31E370000AE2FD /* pte.h */,
-				9B9E5B772E31E371000AE2FD /* pvh.h */,
-				9B9E5B6E2E31E36E000AE2FD /* signatures.c */,
-				9B9E5B732E31E371000AE2FD /* signatures.h */,
-				9B9E5B872E31E372000AE2FD /* translation.c */,
-				9B9E5B832E31E372000AE2FD /* translation.h */,
-				9B9E5B822E31E372000AE2FD /* trustcache_structs.h */,
-				9B9E5B5C2E31E36C000AE2FD /* trustcache.c */,
-				9B9E5B842E31E372000AE2FD /* trustcache.h */,
-				9B9E5B7E2E31E372000AE2FD /* util.c */,
-				9B9E5B682E31E36D000AE2FD /* util.h */,
-				9B9E5B722E31E371000AE2FD /* util.m */,
-			);
-			name = libjailbreak;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1808,16 +1672,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9E5B992E31E373000AE2FD /* util.m in Sources */,
 				8C609C9E2C19B4270023DD12 /* NSString+Version.m in Sources */,
 				042479A62B66916B0082581B /* DOHeaderCell.m in Sources */,
 				8C6599DD2C555A71000FF57F /* DOPSJetsamListItemsController.h in Sources */,
 				042479A22B66916B0082581B /* DOCreditsViewController.m in Sources */,
 				042479B32B66916B0082581B /* DODebugLogView.m in Sources */,
 				042479AF2B66916B0082581B /* DONavigationController.m in Sources */,
-				9B9E5B942E31E373000AE2FD /* physrw.c in Sources */,
-				9B9E5B8D2E31E373000AE2FD /* trustcache.c in Sources */,
-				9B9E5B9A2E31E373000AE2FD /* primitives.c in Sources */,
 				04C246AE2B74ACA200E17924 /* DOAppSwitch.m in Sources */,
 				8C6599DB2C555A60000FF57F /* DOPSJetsamListItemsController.m in Sources */,
 				042479B22B66916B0082581B /* DOLyricsLogView.m in Sources */,
@@ -1827,8 +1687,6 @@
 				8C029F432B4DFD5D0071DE58 /* DOExploitManager.m in Sources */,
 				042479B02B66916B0082581B /* DOLoadingIndicator.m in Sources */,
 				042479AC2B66916B0082581B /* DOJailbreakButton.m in Sources */,
-				9B9E5B952E31E373000AE2FD /* kalloc_pt.m in Sources */,
-				9B9E5B932E31E373000AE2FD /* kcall_Fugu14.S in Sources */,
 				8C4ABEBE2B52274300B43C9B /* DOPreferenceManager.m in Sources */,
 				04DD0B472B7CBEEA0055DE4F /* DOTheme.m in Sources */,
 				04DD0B442B7CBE2E0055DE4F /* DOThemeManager.m in Sources */,
@@ -1836,28 +1694,16 @@
 				8CC139822B53DE6C00230143 /* NSData+Hex.m in Sources */,
 				042479AE2B66916B0082581B /* DOUIManager.m in Sources */,
 				8C71981A2ABF0E82003C6658 /* DOAppDelegate.m in Sources */,
-				9B9E5B912E31E373000AE2FD /* main.c in Sources */,
 				042479B72B66916B0082581B /* DOActionMenuView.m in Sources */,
 				8C029F632B4E2E140071DE58 /* DOJailbreaker.m in Sources */,
 				040622AA2B77FE8E00393AAD /* DOPkgManagerPickerViewController.m in Sources */,
 				042479A82B66916B0082581B /* DOPSListController.m in Sources */,
-				9B9E5B972E31E373000AE2FD /* signatures.c in Sources */,
 				042479B12B66916B0082581B /* DODoubleHelixIndicator.m in Sources */,
-				9B9E5B9F2E31E373000AE2FD /* kcall_Fugu14.c in Sources */,
-				9B9E5B962E31E373000AE2FD /* jbclient_xpc.c in Sources */,
 				042479A72B66916B0082581B /* DOButtonCell.m in Sources */,
-				9B9E5B9D2E31E373000AE2FD /* basebin_gen.m in Sources */,
-				9B9E5B8E2E31E373000AE2FD /* jbclient_mach.c in Sources */,
 				042479B92B66916B0082581B /* DOGlobalAppearance.m in Sources */,
 				8C9E46292ACA1CC700B5456A /* UIImage+Blur.m in Sources */,
-				9B9E5B8B2E31E373000AE2FD /* kcall_arm64.c in Sources */,
-				9B9E5B9C2E31E373000AE2FD /* primitives_IOSurface.m in Sources */,
-				9B9E5B902E31E373000AE2FD /* jbserver_boomerang.c in Sources */,
 				8C029F462B4DFD910071DE58 /* DOBootstrapper.m in Sources */,
-				9B9E5B982E31E373000AE2FD /* jbroot.c in Sources */,
-				9B9E5BA02E31E373000AE2FD /* carboncopy.m in Sources */,
 				042479AD2B66916B0082581B /* DOHeaderView.m in Sources */,
-				9B9E5B8F2E31E373000AE2FD /* jbserver.c in Sources */,
 				042479AB2B66916B0082581B /* DOModalTransitionScale.m in Sources */,
 				04DD0B352B7BA38C0055DE4F /* DOLicenseViewController.m in Sources */,
 				042479AA2B66916B0082581B /* DOModalTransitionPush.m in Sources */,
@@ -1870,17 +1716,11 @@
 				8C029F4E2B4E1FF30071DE58 /* DOExploit.m in Sources */,
 				04C2469D2B73220400E17924 /* DOUpdateCircleView.m in Sources */,
 				04C246B12B74B05800E17924 /* DOPkgManagerPickerView.m in Sources */,
-				9B9E5B8C2E31E373000AE2FD /* codesign.m in Sources */,
-				9B9E5BA12E31E373000AE2FD /* translation.c in Sources */,
 				042479B42B66916B0082581B /* DOProgressiveBlurView.m in Sources */,
-				9B9E5B9B2E31E373000AE2FD /* kernel.c in Sources */,
 				04C2469C2B73220400E17924 /* DOUpdateViewController.m in Sources */,
-				9B9E5B8A2E31E373000AE2FD /* physrw_pte.c in Sources */,
-				9B9E5B9E2E31E373000AE2FD /* util.c in Sources */,
 				042479B62B66916B0082581B /* DOActionMenuButton.m in Sources */,
 				8C71981D2ABF0E82003C6658 /* DOSceneDelegate.m in Sources */,
 				042479A32B66916B0082581B /* DOSettingsController.m in Sources */,
-				9B9E5B922E31E373000AE2FD /* info.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
