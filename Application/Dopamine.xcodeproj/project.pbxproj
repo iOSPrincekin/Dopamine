@@ -57,7 +57,6 @@
 		8C029F662B4E2E970071DE58 /* libcompression.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C029F652B4E2E7D0071DE58 /* libcompression.tbd */; };
 		8C029F682B4E31D50071DE58 /* libMobileGestalt.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C029F672B4E31D50071DE58 /* libMobileGestalt.tbd */; };
 		8C029F6B2B4E320E0071DE58 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C029F6A2B4E320E0071DE58 /* libz.tbd */; };
-		8C05B00F2B631532001A7CF3 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; platformFilter = ios; };
 		8C05B0142B6315DB001A7CF3 /* badRecovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C05B0132B6315DB001A7CF3 /* badRecovery.m */; };
 		8C05B0152B631738001A7CF3 /* badRecovery.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C05B0032B63152B001A7CF3 /* badRecovery.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C05B0182B632925001A7CF3 /* badRecovery.s in Sources */ = {isa = PBXBuildFile; fileRef = 8C05B0172B632925001A7CF3 /* badRecovery.s */; };
@@ -84,13 +83,10 @@
 		8C2875212BD850B4008B24DA /* LICENSE_libgrabkernel2.md in Resources */ = {isa = PBXBuildFile; fileRef = 8C2875202BD850B4008B24DA /* LICENSE_libgrabkernel2.md */; };
 		8C296BAC2BE049E4007C2AD1 /* DOPSExploitListItemsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C296BAB2BE049E4007C2AD1 /* DOPSExploitListItemsController.m */; };
 		8C296BAE2BE05914007C2AD1 /* LICENSE_plooshinit.md in Resources */ = {isa = PBXBuildFile; fileRef = 8C296BAD2BE05914007C2AD1 /* LICENSE_plooshinit.md */; };
-		8C2B1FEA2B53238D009BA166 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; platformFilter = ios; };
 		8C2B1FF02B5324DE009BA166 /* dmaFail.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2B1FEF2B5324DE009BA166 /* dmaFail.h */; };
 		8C2B1FF42B53492B009BA166 /* dmaFail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C2B1FDF2B532374009BA166 /* dmaFail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C2B1FF52B534C2F009BA166 /* dmaFail.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C2B1FF12B53251E009BA166 /* dmaFail.c */; };
 		8C46D7252B588973002899DB /* libzstd in Frameworks */ = {isa = PBXBuildFile; productRef = 8C46D7242B588973002899DB /* libzstd */; };
-		8C4ABEB62B52094100B43C9B /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; };
-		8C4ABEB92B520E7B00B43C9B /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; platformFilter = ios; };
 		8C4ABEBE2B52274300B43C9B /* DOPreferenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4ABEBD2B52274300B43C9B /* DOPreferenceManager.m */; };
 		8C512B912B5C9F9100C6F14A /* sileo.deb in Resources */ = {isa = PBXBuildFile; fileRef = 8C512B8B2B5C9DE800C6F14A /* sileo.deb */; };
 		8C512B922B5C9F9400C6F14A /* zebra.deb in Resources */ = {isa = PBXBuildFile; fileRef = 8C512B8C2B5C9DE800C6F14A /* zebra.deb */; };
@@ -145,8 +141,6 @@
 		8C5FA9382BDD47D5008C246F /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 8C5FA9172BDD47D5008C246F /* utils.c */; };
 		8C5FA9392BDD47D5008C246F /* IOSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5FA9182BDD47D5008C246F /* IOSurface.h */; };
 		8C5FA93A2BDD47D5008C246F /* IOGPU.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5FA9192BDD47D5008C246F /* IOGPU.h */; };
-		8C5FA93B2BDD4F98008C246F /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; platformFilter = ios; };
-		8C5FA93C2BDD4F9D008C246F /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; platformFilter = ios; };
 		8C5FA9402BDD5039008C246F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5FA93F2BDD5039008C246F /* IOKit.framework */; };
 		8C5FA9422BDD503D008C246F /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5FA9412BDD503D008C246F /* IOSurface.framework */; };
 		8C5FA9442BDD5062008C246F /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C5FA9432BDD5062008C246F /* CoreML.framework */; };
@@ -198,10 +192,118 @@
 		8CDD08462B4F6DD800A32B61 /* libchoma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08432B4F6DD800A32B61 /* libchoma.dylib */; };
 		8CDD08472B4F6DD800A32B61 /* libxpf.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08442B4F6DD800A32B61 /* libxpf.dylib */; };
 		8CDD08482B4F6DF100A32B61 /* libxpf.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08442B4F6DD800A32B61 /* libxpf.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		8CDD08492B4F6DF500A32B61 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8CDD084A2B4F6DF800A32B61 /* libchoma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08432B4F6DD800A32B61 /* libchoma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		9B9E5BA32E320005000AE2FD /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */; };
 		9B9E5BA52E32009E000AE2FD /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA42E320099000AE2FD /* libbsm.tbd */; };
+		9BBC21FD2E32412300354848 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21BE2E323EC700354848 /* UIKit.framework */; };
+		9BBC21FE2E32412300354848 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21C02E323EC800354848 /* Foundation.framework */; };
+		9BBC22102E3241DF00354848 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; };
+		9BBC22112E3241DF00354848 /* libjailbreak.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9BBC22482E32426000354848 /* basebin_gen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22142E32425100354848 /* basebin_gen.m */; };
+		9BBC22492E32426000354848 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22152E32425200354848 /* main.c */; };
+		9BBC224A2E32426000354848 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22162E32425200354848 /* util.m */; };
+		9BBC224B2E32426000354848 /* kcall_Fugu14.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22172E32425200354848 /* kcall_Fugu14.c */; };
+		9BBC224C2E32426000354848 /* carboncopy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22182E32425200354848 /* carboncopy.h */; };
+		9BBC224D2E32426000354848 /* machine_info.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22192E32425200354848 /* machine_info.h */; };
+		9BBC224E2E32426000354848 /* translation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC221A2E32425200354848 /* translation.h */; };
+		9BBC224F2E32426000354848 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC221B2E32425300354848 /* util.c */; };
+		9BBC22502E32426000354848 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC221C2E32425600354848 /* util.h */; };
+		9BBC22512E32426000354848 /* physrw_pte.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC221D2E32425600354848 /* physrw_pte.c */; };
+		9BBC22522E32426000354848 /* kalloc_pt.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC221E2E32425600354848 /* kalloc_pt.h */; };
+		9BBC22532E32426000354848 /* primitives.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC221F2E32425600354848 /* primitives.c */; };
+		9BBC22542E32426000354848 /* primitives_IOSurface.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22202E32425700354848 /* primitives_IOSurface.m */; };
+		9BBC22552E32426000354848 /* signatures.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22212E32425800354848 /* signatures.c */; };
+		9BBC22562E32426000354848 /* jbserver_boomerang.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22222E32425900354848 /* jbserver_boomerang.c */; };
+		9BBC22572E32426000354848 /* trustcache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22232E32425900354848 /* trustcache.h */; };
+		9BBC22582E32426000354848 /* trustcache_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22242E32425900354848 /* trustcache_structs.h */; };
+		9BBC22592E32426000354848 /* info.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22252E32425A00354848 /* info.c */; };
+		9BBC225A2E32426000354848 /* trustcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22262E32425B00354848 /* trustcache.c */; };
+		9BBC225B2E32426000354848 /* kernel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22272E32425B00354848 /* kernel.h */; };
+		9BBC225C2E32426000354848 /* jbclient_xpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22282E32425B00354848 /* jbclient_xpc.c */; };
+		9BBC225D2E32426000354848 /* kcall_Fugu14.S in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22292E32425B00354848 /* kcall_Fugu14.S */; };
+		9BBC225E2E32426000354848 /* kcall_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC222A2E32425B00354848 /* kcall_arm64.c */; };
+		9BBC225F2E32426000354848 /* physrw.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC222B2E32425B00354848 /* physrw.h */; };
+		9BBC22602E32426000354848 /* physrw.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC222C2E32425C00354848 /* physrw.c */; };
+		9BBC22612E32426000354848 /* jbclient_mach.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC222D2E32425C00354848 /* jbclient_mach.c */; };
+		9BBC22622E32426000354848 /* physrw_pte.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC222E2E32425C00354848 /* physrw_pte.h */; };
+		9BBC22632E32426000354848 /* jbserver_domains.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC222F2E32425C00354848 /* jbserver_domains.h */; };
+		9BBC22642E32426000354848 /* jbroot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22302E32425C00354848 /* jbroot.h */; };
+		9BBC22652E32426000354848 /* primitives_external.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22312E32425C00354848 /* primitives_external.h */; };
+		9BBC22662E32426000354848 /* jbserver_boomerang.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22322E32425D00354848 /* jbserver_boomerang.h */; };
+		9BBC22672E32426000354848 /* jbserver.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22332E32425D00354848 /* jbserver.c */; };
+		9BBC22682E32426000354848 /* kernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22342E32425D00354848 /* kernel.c */; };
+		9BBC22692E32426000354848 /* libjailbreak.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22352E32425D00354848 /* libjailbreak.h */; };
+		9BBC226A2E32426000354848 /* kalloc_pt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22362E32425D00354848 /* kalloc_pt.m */; };
+		9BBC226B2E32426000354848 /* basebin_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22372E32425D00354848 /* basebin_gen.h */; };
+		9BBC226C2E32426000354848 /* kcall_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22382E32425E00354848 /* kcall_arm64.h */; };
+		9BBC226D2E32426000354848 /* translation.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22392E32425E00354848 /* translation.c */; };
+		9BBC226E2E32426000354848 /* signatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC223A2E32425E00354848 /* signatures.h */; };
+		9BBC226F2E32426100354848 /* pte.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC223B2E32425E00354848 /* pte.h */; };
+		9BBC22702E32426100354848 /* pvh.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC223C2E32425E00354848 /* pvh.h */; };
+		9BBC22712E32426100354848 /* primitives.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC223D2E32425E00354848 /* primitives.h */; };
+		9BBC22722E32426100354848 /* info.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC223E2E32425E00354848 /* info.h */; };
+		9BBC22732E32426100354848 /* jbroot.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC223F2E32425E00354848 /* jbroot.c */; };
+		9BBC22742E32426100354848 /* primitives_IOSurface.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22402E32425F00354848 /* primitives_IOSurface.h */; };
+		9BBC22752E32426100354848 /* codesign.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22412E32425F00354848 /* codesign.h */; };
+		9BBC22762E32426100354848 /* jbserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22422E32425F00354848 /* jbserver.h */; };
+		9BBC22772E32426100354848 /* codesign.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22432E32426000354848 /* codesign.m */; };
+		9BBC22782E32426100354848 /* carboncopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22442E32426000354848 /* carboncopy.m */; };
+		9BBC22792E32426100354848 /* jbclient_mach.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22452E32426000354848 /* jbclient_mach.h */; };
+		9BBC227A2E32426100354848 /* jbclient_xpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22462E32426000354848 /* jbclient_xpc.h */; };
+		9BBC227B2E32426100354848 /* kcall_Fugu14.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22472E32426000354848 /* kcall_Fugu14.h */; };
+		9BBC227C2E32426400354848 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; };
+		9BBC227D2E32426400354848 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9BBC22812E32426A00354848 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; };
+		9BBC22822E32426A00354848 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9BBC22862E32426F00354848 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; };
+		9BBC22872E32426F00354848 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9BBC228B2E32427500354848 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; };
+		9BBC228C2E32427500354848 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9BBC22902E32427A00354848 /* libjailbreak.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; };
+		9BBC22912E32427A00354848 /* libjailbreak.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9BBC22952E32445400354848 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08372B4F682500A32B61 /* IOKit.framework */; };
+		9BBC22962E32449600354848 /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */; };
+		9BBC22972E32449A00354848 /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */; };
+		9BBC22992E3244C700354848 /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC22982E3244C400354848 /* libarchive.2.tbd */; };
+		9BBC229B2E32450B00354848 /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC229A2E32450700354848 /* libbsm.tbd */; };
+		9BBC22CB2E32467200354848 /* MachOLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A52E32466D00354848 /* MachOLoadCommand.h */; };
+		9BBC22CC2E32467200354848 /* PatchFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A62E32466D00354848 /* PatchFinder.h */; };
+		9BBC22CD2E32467200354848 /* MachO.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A72E32466D00354848 /* MachO.h */; };
+		9BBC22CE2E32467200354848 /* DER.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22A82E32466D00354848 /* DER.c */; };
+		9BBC22CF2E32467200354848 /* dyld_cache_format.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A92E32466E00354848 /* dyld_cache_format.h */; };
+		9BBC22D02E32467200354848 /* Fat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AA2E32466E00354848 /* Fat.h */; };
+		9BBC22D12E32467200354848 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AB2E32466E00354848 /* FileStream.h */; };
+		9BBC22D22E32467200354848 /* PatchFinder_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AC2E32466E00354848 /* PatchFinder_arm64.h */; };
+		9BBC22D32E32467200354848 /* PatchFinder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22AD2E32466E00354848 /* PatchFinder.c */; };
+		9BBC22D42E32467200354848 /* DyldSharedCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AE2E32466E00354848 /* DyldSharedCache.h */; };
+		9BBC22D52E32467200354848 /* MemoryStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22AF2E32466E00354848 /* MemoryStream.c */; };
+		9BBC22D62E32467200354848 /* Base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B02E32466F00354848 /* Base64.c */; };
+		9BBC22D72E32467200354848 /* CSBlob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22B12E32466F00354848 /* CSBlob.h */; };
+		9BBC22D82E32467200354848 /* arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B22E32466F00354848 /* arm64.c */; };
+		9BBC22D92E32467200354848 /* CachePatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22B32E32466F00354848 /* CachePatching.h */; };
+		9BBC22DA2E32467200354848 /* Fat.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B42E32466F00354848 /* Fat.c */; };
+		9BBC22DB2E32467200354848 /* CodeDirectory.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B52E32466F00354848 /* CodeDirectory.c */; };
+		9BBC22DC2E32467200354848 /* Host.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22B62E32466F00354848 /* Host.h */; };
+		9BBC22DD2E32467200354848 /* Host.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B72E32466F00354848 /* Host.c */; };
+		9BBC22DE2E32467200354848 /* Entitlements.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B82E32466F00354848 /* Entitlements.c */; };
+		9BBC22DF2E32467200354848 /* PatchFinder_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B92E32467000354848 /* PatchFinder_arm64.c */; };
+		9BBC22E02E32467200354848 /* Util.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22BA2E32467000354848 /* Util.c */; };
+		9BBC22E12E32467200354848 /* BufferedStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BB2E32467000354848 /* BufferedStream.h */; };
+		9BBC22E22E32467200354848 /* CSBlob.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22BC2E32467000354848 /* CSBlob.c */; };
+		9BBC22E32E32467200354848 /* MemoryStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BD2E32467000354848 /* MemoryStream.h */; };
+		9BBC22E42E32467200354848 /* fixup-chains.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BE2E32467000354848 /* fixup-chains.h */; };
+		9BBC22E52E32467200354848 /* CodeDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BF2E32467000354848 /* CodeDirectory.h */; };
+		9BBC22E62E32467200354848 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C02E32467100354848 /* Util.h */; };
+		9BBC22E72E32467200354848 /* Entitlements.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C12E32467100354848 /* Entitlements.h */; };
+		9BBC22E82E32467200354848 /* MachOByteOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C22E32467100354848 /* MachOByteOrder.h */; };
+		9BBC22E92E32467200354848 /* BufferedStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C32E32467100354848 /* BufferedStream.c */; };
+		9BBC22EA2E32467200354848 /* arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C42E32467100354848 /* arm64.h */; };
+		9BBC22EB2E32467200354848 /* FileStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C52E32467100354848 /* FileStream.c */; };
+		9BBC22EC2E32467200354848 /* MachO.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C62E32467100354848 /* MachO.c */; };
+		9BBC22ED2E32467200354848 /* DER.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C72E32467100354848 /* DER.h */; };
+		9BBC22EE2E32467200354848 /* DyldSharedCache.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C82E32467100354848 /* DyldSharedCache.c */; };
+		9BBC22EF2E32467200354848 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C92E32467200354848 /* Base64.h */; };
+		9BBC22F02E32467200354848 /* MachOLoadCommand.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22CA2E32467200354848 /* MachOLoadCommand.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -240,6 +342,41 @@
 			remoteGlobalIDString = 8CDD07A62B4F619000A32B61;
 			remoteInfo = kfd;
 		};
+		9BBC227E2E32426400354848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBC21FB2E32412300354848;
+			remoteInfo = libjailbreak;
+		};
+		9BBC22832E32426A00354848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBC21FB2E32412300354848;
+			remoteInfo = libjailbreak;
+		};
+		9BBC22882E32426F00354848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBC21FB2E32412300354848;
+			remoteInfo = libjailbreak;
+		};
+		9BBC228D2E32427500354848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBC21FB2E32412300354848;
+			remoteInfo = libjailbreak;
+		};
+		9BBC22922E32427A00354848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BBC21FB2E32412300354848;
+			remoteInfo = libjailbreak;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -250,7 +387,6 @@
 			dstSubfolderSpec = 6;
 			files = (
 				8CDD084A2B4F6DF800A32B61 /* libchoma.dylib in Embed Libraries */,
-				8CDD08492B4F6DF500A32B61 /* libjailbreak.dylib in Embed Libraries */,
 				8CDD08482B4F6DF100A32B61 /* libxpf.dylib in Embed Libraries */,
 			);
 			name = "Embed Libraries";
@@ -264,11 +400,67 @@
 			files = (
 				8C5FA8DB2BDD36B6008C246F /* weightBufs.framework in Embed Frameworks */,
 				8CDD07AF2B4F619000A32B61 /* kfd.framework in Embed Frameworks */,
+				9BBC22112E3241DF00354848 /* libjailbreak.dylib in Embed Frameworks */,
 				8C2B1FF42B53492B009BA166 /* dmaFail.framework in Embed Frameworks */,
 				8C5FA8EB2BDD36BF008C246F /* multicast_bytecopy.framework in Embed Frameworks */,
 				8C05B0152B631738001A7CF3 /* badRecovery.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBC22802E32426500354848 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9BBC227D2E32426400354848 /* libjailbreak.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBC22852E32426A00354848 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9BBC22822E32426A00354848 /* libjailbreak.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBC228A2E32426F00354848 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9BBC22872E32426F00354848 /* libjailbreak.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBC228F2E32427500354848 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9BBC228C2E32427500354848 /* libjailbreak.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBC22942E32427B00354848 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9BBC22912E32427A00354848 /* libjailbreak.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -540,6 +732,102 @@
 		8CDD08442B4F6DD800A32B61 /* libxpf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxpf.dylib; path = ../BaseBin/.build/libxpf.dylib; sourceTree = "<group>"; };
 		9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.2.tbd; path = usr/lib/libarchive.2.tbd; sourceTree = SDKROOT; };
 		9B9E5BA42E320099000AE2FD /* libbsm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.tbd; path = usr/lib/libbsm.tbd; sourceTree = SDKROOT; };
+		9BBC21BE2E323EC700354848 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BBC21C02E323EC800354848 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BBC21C22E323EC800354848 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		9BBC21FC2E32412300354848 /* libjailbreak.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libjailbreak.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BBC22142E32425100354848 /* basebin_gen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = basebin_gen.m; path = ../../BaseBin/libjailbreak/src/basebin_gen.m; sourceTree = "<group>"; };
+		9BBC22152E32425200354848 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = ../../BaseBin/libjailbreak/src/main.c; sourceTree = "<group>"; };
+		9BBC22162E32425200354848 /* util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = util.m; path = ../../BaseBin/libjailbreak/src/util.m; sourceTree = "<group>"; };
+		9BBC22172E32425200354848 /* kcall_Fugu14.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kcall_Fugu14.c; path = ../../BaseBin/libjailbreak/src/kcall_Fugu14.c; sourceTree = "<group>"; };
+		9BBC22182E32425200354848 /* carboncopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = carboncopy.h; path = ../../BaseBin/libjailbreak/src/carboncopy.h; sourceTree = "<group>"; };
+		9BBC22192E32425200354848 /* machine_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = machine_info.h; path = ../../BaseBin/libjailbreak/src/machine_info.h; sourceTree = "<group>"; };
+		9BBC221A2E32425200354848 /* translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = translation.h; path = ../../BaseBin/libjailbreak/src/translation.h; sourceTree = "<group>"; };
+		9BBC221B2E32425300354848 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = ../../BaseBin/libjailbreak/src/util.c; sourceTree = "<group>"; };
+		9BBC221C2E32425600354848 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = ../../BaseBin/libjailbreak/src/util.h; sourceTree = "<group>"; };
+		9BBC221D2E32425600354848 /* physrw_pte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physrw_pte.c; path = ../../BaseBin/libjailbreak/src/physrw_pte.c; sourceTree = "<group>"; };
+		9BBC221E2E32425600354848 /* kalloc_pt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kalloc_pt.h; path = ../../BaseBin/libjailbreak/src/kalloc_pt.h; sourceTree = "<group>"; };
+		9BBC221F2E32425600354848 /* primitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = primitives.c; path = ../../BaseBin/libjailbreak/src/primitives.c; sourceTree = "<group>"; };
+		9BBC22202E32425700354848 /* primitives_IOSurface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = primitives_IOSurface.m; path = ../../BaseBin/libjailbreak/src/primitives_IOSurface.m; sourceTree = "<group>"; };
+		9BBC22212E32425800354848 /* signatures.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signatures.c; path = ../../BaseBin/libjailbreak/src/signatures.c; sourceTree = "<group>"; };
+		9BBC22222E32425900354848 /* jbserver_boomerang.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbserver_boomerang.c; path = ../../BaseBin/libjailbreak/src/jbserver_boomerang.c; sourceTree = "<group>"; };
+		9BBC22232E32425900354848 /* trustcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trustcache.h; path = ../../BaseBin/libjailbreak/src/trustcache.h; sourceTree = "<group>"; };
+		9BBC22242E32425900354848 /* trustcache_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = trustcache_structs.h; path = ../../BaseBin/libjailbreak/src/trustcache_structs.h; sourceTree = "<group>"; };
+		9BBC22252E32425A00354848 /* info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = info.c; path = ../../BaseBin/libjailbreak/src/info.c; sourceTree = "<group>"; };
+		9BBC22262E32425B00354848 /* trustcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trustcache.c; path = ../../BaseBin/libjailbreak/src/trustcache.c; sourceTree = "<group>"; };
+		9BBC22272E32425B00354848 /* kernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kernel.h; path = ../../BaseBin/libjailbreak/src/kernel.h; sourceTree = "<group>"; };
+		9BBC22282E32425B00354848 /* jbclient_xpc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbclient_xpc.c; path = ../../BaseBin/libjailbreak/src/jbclient_xpc.c; sourceTree = "<group>"; };
+		9BBC22292E32425B00354848 /* kcall_Fugu14.S */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = kcall_Fugu14.S; path = ../../BaseBin/libjailbreak/src/kcall_Fugu14.S; sourceTree = "<group>"; };
+		9BBC222A2E32425B00354848 /* kcall_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kcall_arm64.c; path = ../../BaseBin/libjailbreak/src/kcall_arm64.c; sourceTree = "<group>"; };
+		9BBC222B2E32425B00354848 /* physrw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physrw.h; path = ../../BaseBin/libjailbreak/src/physrw.h; sourceTree = "<group>"; };
+		9BBC222C2E32425C00354848 /* physrw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = physrw.c; path = ../../BaseBin/libjailbreak/src/physrw.c; sourceTree = "<group>"; };
+		9BBC222D2E32425C00354848 /* jbclient_mach.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbclient_mach.c; path = ../../BaseBin/libjailbreak/src/jbclient_mach.c; sourceTree = "<group>"; };
+		9BBC222E2E32425C00354848 /* physrw_pte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = physrw_pte.h; path = ../../BaseBin/libjailbreak/src/physrw_pte.h; sourceTree = "<group>"; };
+		9BBC222F2E32425C00354848 /* jbserver_domains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbserver_domains.h; path = ../../BaseBin/libjailbreak/src/jbserver_domains.h; sourceTree = "<group>"; };
+		9BBC22302E32425C00354848 /* jbroot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbroot.h; path = ../../BaseBin/libjailbreak/src/jbroot.h; sourceTree = "<group>"; };
+		9BBC22312E32425C00354848 /* primitives_external.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = primitives_external.h; path = ../../BaseBin/libjailbreak/src/primitives_external.h; sourceTree = "<group>"; };
+		9BBC22322E32425D00354848 /* jbserver_boomerang.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbserver_boomerang.h; path = ../../BaseBin/libjailbreak/src/jbserver_boomerang.h; sourceTree = "<group>"; };
+		9BBC22332E32425D00354848 /* jbserver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbserver.c; path = ../../BaseBin/libjailbreak/src/jbserver.c; sourceTree = "<group>"; };
+		9BBC22342E32425D00354848 /* kernel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = kernel.c; path = ../../BaseBin/libjailbreak/src/kernel.c; sourceTree = "<group>"; };
+		9BBC22352E32425D00354848 /* libjailbreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libjailbreak.h; path = ../../BaseBin/libjailbreak/src/libjailbreak.h; sourceTree = "<group>"; };
+		9BBC22362E32425D00354848 /* kalloc_pt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kalloc_pt.m; path = ../../BaseBin/libjailbreak/src/kalloc_pt.m; sourceTree = "<group>"; };
+		9BBC22372E32425D00354848 /* basebin_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = basebin_gen.h; path = ../../BaseBin/libjailbreak/src/basebin_gen.h; sourceTree = "<group>"; };
+		9BBC22382E32425E00354848 /* kcall_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kcall_arm64.h; path = ../../BaseBin/libjailbreak/src/kcall_arm64.h; sourceTree = "<group>"; };
+		9BBC22392E32425E00354848 /* translation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = translation.c; path = ../../BaseBin/libjailbreak/src/translation.c; sourceTree = "<group>"; };
+		9BBC223A2E32425E00354848 /* signatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = signatures.h; path = ../../BaseBin/libjailbreak/src/signatures.h; sourceTree = "<group>"; };
+		9BBC223B2E32425E00354848 /* pte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pte.h; path = ../../BaseBin/libjailbreak/src/pte.h; sourceTree = "<group>"; };
+		9BBC223C2E32425E00354848 /* pvh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pvh.h; path = ../../BaseBin/libjailbreak/src/pvh.h; sourceTree = "<group>"; };
+		9BBC223D2E32425E00354848 /* primitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = primitives.h; path = ../../BaseBin/libjailbreak/src/primitives.h; sourceTree = "<group>"; };
+		9BBC223E2E32425E00354848 /* info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = info.h; path = ../../BaseBin/libjailbreak/src/info.h; sourceTree = "<group>"; };
+		9BBC223F2E32425E00354848 /* jbroot.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jbroot.c; path = ../../BaseBin/libjailbreak/src/jbroot.c; sourceTree = "<group>"; };
+		9BBC22402E32425F00354848 /* primitives_IOSurface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = primitives_IOSurface.h; path = ../../BaseBin/libjailbreak/src/primitives_IOSurface.h; sourceTree = "<group>"; };
+		9BBC22412E32425F00354848 /* codesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = codesign.h; path = ../../BaseBin/libjailbreak/src/codesign.h; sourceTree = "<group>"; };
+		9BBC22422E32425F00354848 /* jbserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbserver.h; path = ../../BaseBin/libjailbreak/src/jbserver.h; sourceTree = "<group>"; };
+		9BBC22432E32426000354848 /* codesign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = codesign.m; path = ../../BaseBin/libjailbreak/src/codesign.m; sourceTree = "<group>"; };
+		9BBC22442E32426000354848 /* carboncopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = carboncopy.m; path = ../../BaseBin/libjailbreak/src/carboncopy.m; sourceTree = "<group>"; };
+		9BBC22452E32426000354848 /* jbclient_mach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbclient_mach.h; path = ../../BaseBin/libjailbreak/src/jbclient_mach.h; sourceTree = "<group>"; };
+		9BBC22462E32426000354848 /* jbclient_xpc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jbclient_xpc.h; path = ../../BaseBin/libjailbreak/src/jbclient_xpc.h; sourceTree = "<group>"; };
+		9BBC22472E32426000354848 /* kcall_Fugu14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kcall_Fugu14.h; path = ../../BaseBin/libjailbreak/src/kcall_Fugu14.h; sourceTree = "<group>"; };
+		9BBC22982E3244C400354848 /* libarchive.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libarchive.2.tbd; sourceTree = DEVELOPER_DIR; };
+		9BBC229A2E32450700354848 /* libbsm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libbsm.tbd; sourceTree = DEVELOPER_DIR; };
+		9BBC22A52E32466D00354848 /* MachOLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachOLoadCommand.h; path = ../../BaseBin/ChOma/src/MachOLoadCommand.h; sourceTree = "<group>"; };
+		9BBC22A62E32466D00354848 /* PatchFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchFinder.h; path = ../../BaseBin/ChOma/src/PatchFinder.h; sourceTree = "<group>"; };
+		9BBC22A72E32466D00354848 /* MachO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachO.h; path = ../../BaseBin/ChOma/src/MachO.h; sourceTree = "<group>"; };
+		9BBC22A82E32466D00354848 /* DER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DER.c; path = ../../BaseBin/ChOma/src/DER.c; sourceTree = "<group>"; };
+		9BBC22A92E32466E00354848 /* dyld_cache_format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dyld_cache_format.h; path = ../../BaseBin/ChOma/src/dyld_cache_format.h; sourceTree = "<group>"; };
+		9BBC22AA2E32466E00354848 /* Fat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fat.h; path = ../../BaseBin/ChOma/src/Fat.h; sourceTree = "<group>"; };
+		9BBC22AB2E32466E00354848 /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileStream.h; path = ../../BaseBin/ChOma/src/FileStream.h; sourceTree = "<group>"; };
+		9BBC22AC2E32466E00354848 /* PatchFinder_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchFinder_arm64.h; path = ../../BaseBin/ChOma/src/PatchFinder_arm64.h; sourceTree = "<group>"; };
+		9BBC22AD2E32466E00354848 /* PatchFinder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PatchFinder.c; path = ../../BaseBin/ChOma/src/PatchFinder.c; sourceTree = "<group>"; };
+		9BBC22AE2E32466E00354848 /* DyldSharedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DyldSharedCache.h; path = ../../BaseBin/ChOma/src/DyldSharedCache.h; sourceTree = "<group>"; };
+		9BBC22AF2E32466E00354848 /* MemoryStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MemoryStream.c; path = ../../BaseBin/ChOma/src/MemoryStream.c; sourceTree = "<group>"; };
+		9BBC22B02E32466F00354848 /* Base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Base64.c; path = ../../BaseBin/ChOma/src/Base64.c; sourceTree = "<group>"; };
+		9BBC22B12E32466F00354848 /* CSBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSBlob.h; path = ../../BaseBin/ChOma/src/CSBlob.h; sourceTree = "<group>"; };
+		9BBC22B22E32466F00354848 /* arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arm64.c; path = ../../BaseBin/ChOma/src/arm64.c; sourceTree = "<group>"; };
+		9BBC22B32E32466F00354848 /* CachePatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CachePatching.h; path = ../../BaseBin/ChOma/src/CachePatching.h; sourceTree = "<group>"; };
+		9BBC22B42E32466F00354848 /* Fat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Fat.c; path = ../../BaseBin/ChOma/src/Fat.c; sourceTree = "<group>"; };
+		9BBC22B52E32466F00354848 /* CodeDirectory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CodeDirectory.c; path = ../../BaseBin/ChOma/src/CodeDirectory.c; sourceTree = "<group>"; };
+		9BBC22B62E32466F00354848 /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Host.h; path = ../../BaseBin/ChOma/src/Host.h; sourceTree = "<group>"; };
+		9BBC22B72E32466F00354848 /* Host.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Host.c; path = ../../BaseBin/ChOma/src/Host.c; sourceTree = "<group>"; };
+		9BBC22B82E32466F00354848 /* Entitlements.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Entitlements.c; path = ../../BaseBin/ChOma/src/Entitlements.c; sourceTree = "<group>"; };
+		9BBC22B92E32467000354848 /* PatchFinder_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PatchFinder_arm64.c; path = ../../BaseBin/ChOma/src/PatchFinder_arm64.c; sourceTree = "<group>"; };
+		9BBC22BA2E32467000354848 /* Util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Util.c; path = ../../BaseBin/ChOma/src/Util.c; sourceTree = "<group>"; };
+		9BBC22BB2E32467000354848 /* BufferedStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BufferedStream.h; path = ../../BaseBin/ChOma/src/BufferedStream.h; sourceTree = "<group>"; };
+		9BBC22BC2E32467000354848 /* CSBlob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CSBlob.c; path = ../../BaseBin/ChOma/src/CSBlob.c; sourceTree = "<group>"; };
+		9BBC22BD2E32467000354848 /* MemoryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryStream.h; path = ../../BaseBin/ChOma/src/MemoryStream.h; sourceTree = "<group>"; };
+		9BBC22BE2E32467000354848 /* fixup-chains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "fixup-chains.h"; path = "../../BaseBin/ChOma/src/fixup-chains.h"; sourceTree = "<group>"; };
+		9BBC22BF2E32467000354848 /* CodeDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeDirectory.h; path = ../../BaseBin/ChOma/src/CodeDirectory.h; sourceTree = "<group>"; };
+		9BBC22C02E32467100354848 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../../BaseBin/ChOma/src/Util.h; sourceTree = "<group>"; };
+		9BBC22C12E32467100354848 /* Entitlements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entitlements.h; path = ../../BaseBin/ChOma/src/Entitlements.h; sourceTree = "<group>"; };
+		9BBC22C22E32467100354848 /* MachOByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachOByteOrder.h; path = ../../BaseBin/ChOma/src/MachOByteOrder.h; sourceTree = "<group>"; };
+		9BBC22C32E32467100354848 /* BufferedStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BufferedStream.c; path = ../../BaseBin/ChOma/src/BufferedStream.c; sourceTree = "<group>"; };
+		9BBC22C42E32467100354848 /* arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arm64.h; path = ../../BaseBin/ChOma/src/arm64.h; sourceTree = "<group>"; };
+		9BBC22C52E32467100354848 /* FileStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = FileStream.c; path = ../../BaseBin/ChOma/src/FileStream.c; sourceTree = "<group>"; };
+		9BBC22C62E32467100354848 /* MachO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MachO.c; path = ../../BaseBin/ChOma/src/MachO.c; sourceTree = "<group>"; };
+		9BBC22C72E32467100354848 /* DER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DER.h; path = ../../BaseBin/ChOma/src/DER.h; sourceTree = "<group>"; };
+		9BBC22C82E32467100354848 /* DyldSharedCache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DyldSharedCache.c; path = ../../BaseBin/ChOma/src/DyldSharedCache.c; sourceTree = "<group>"; };
+		9BBC22C92E32467200354848 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = ../../BaseBin/ChOma/src/Base64.h; sourceTree = "<group>"; };
+		9BBC22CA2E32467200354848 /* MachOLoadCommand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MachOLoadCommand.c; path = ../../BaseBin/ChOma/src/MachOLoadCommand.c; sourceTree = "<group>"; };
 		C075B0CB2B8F2BCE009A26BB /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -548,7 +836,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C05B00F2B631532001A7CF3 /* libjailbreak.dylib in Frameworks */,
+				9BBC22862E32426F00354848 /* libjailbreak.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +844,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2B1FEA2B53238D009BA166 /* libjailbreak.dylib in Frameworks */,
+				9BBC22812E32426A00354848 /* libjailbreak.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,8 +852,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBC228B2E32427500354848 /* libjailbreak.dylib in Frameworks */,
 				8C5FA9422BDD503D008C246F /* IOSurface.framework in Frameworks */,
-				8C5FA93B2BDD4F98008C246F /* libjailbreak.dylib in Frameworks */,
 				8C5FA9442BDD5062008C246F /* CoreML.framework in Frameworks */,
 				8C5FA9402BDD5039008C246F /* IOKit.framework in Frameworks */,
 			);
@@ -577,7 +865,7 @@
 			files = (
 				8C5FA96F2BDD789C008C246F /* IOSurface.framework in Frameworks */,
 				8C5FA96E2BDD7898008C246F /* IOKit.framework in Frameworks */,
-				8C5FA93C2BDD4F9D008C246F /* libjailbreak.dylib in Frameworks */,
+				9BBC22902E32427A00354848 /* libjailbreak.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +874,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C029F6B2B4E320E0071DE58 /* libz.tbd in Frameworks */,
+				9BBC22972E32449A00354848 /* libarchive.2.tbd in Frameworks */,
 				8CDD08472B4F6DD800A32B61 /* libxpf.dylib in Frameworks */,
+				9BBC22102E3241DF00354848 /* libjailbreak.dylib in Frameworks */,
 				9B9E5BA52E32009E000AE2FD /* libbsm.tbd in Frameworks */,
 				8CDD08462B4F6DD800A32B61 /* libchoma.dylib in Frameworks */,
 				8CC139832B53E05300230143 /* IOKit.framework in Frameworks */,
@@ -596,9 +886,9 @@
 				51F19D052BBF456200896361 /* libpartial.a in Frameworks */,
 				042479E52B66B0DD0082581B /* Preferences.framework in Frameworks */,
 				9B9E5BA32E320005000AE2FD /* libarchive.2.tbd in Frameworks */,
+				9BBC22962E32449600354848 /* libarchive.2.tbd in Frameworks */,
 				8C029F662B4E2E970071DE58 /* libcompression.tbd in Frameworks */,
 				8C58E5592B7EAF8000E3ADAA /* CoreServices.framework in Frameworks */,
-				8C4ABEB62B52094100B43C9B /* libjailbreak.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,7 +898,19 @@
 			files = (
 				8CDD08362B4F682000A32B61 /* IOSurface.framework in Frameworks */,
 				8CDD08382B4F682500A32B61 /* IOKit.framework in Frameworks */,
-				8C4ABEB92B520E7B00B43C9B /* libjailbreak.dylib in Frameworks */,
+				9BBC227C2E32426400354848 /* libjailbreak.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BBC21F82E32412300354848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBC21FD2E32412300354848 /* UIKit.framework in Frameworks */,
+				9BBC21FE2E32412300354848 /* Foundation.framework in Frameworks */,
+				9BBC22992E3244C700354848 /* libarchive.2.tbd in Frameworks */,
+				9BBC229B2E32450B00354848 /* libbsm.tbd in Frameworks */,
+				9BBC22952E32445400354848 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,6 +1104,8 @@
 		8C029F642B4E2E7D0071DE58 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BBC229A2E32450700354848 /* libbsm.tbd */,
+				9BBC22982E3244C400354848 /* libarchive.2.tbd */,
 				9B9E5BA42E320099000AE2FD /* libbsm.tbd */,
 				9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */,
 				8C5FA9432BDD5062008C246F /* CoreML.framework */,
@@ -819,6 +1123,9 @@
 				8C029F652B4E2E7D0071DE58 /* libcompression.tbd */,
 				8CDD083B2B4F6D8200A32B61 /* libgrabkernel2.a */,
 				8C029F6A2B4E320E0071DE58 /* libz.tbd */,
+				9BBC21BE2E323EC700354848 /* UIKit.framework */,
+				9BBC21C02E323EC800354848 /* Foundation.framework */,
+				9BBC21C22E323EC800354848 /* CydiaSubstrate.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1029,6 +1336,7 @@
 			isa = PBXGroup;
 			children = (
 				8C7198172ABF0E82003C6658 /* Dopamine */,
+				9BBC22002E32412300354848 /* libjailbreak */,
 				8C7198162ABF0E82003C6658 /* Products */,
 				8C029F642B4E2E7D0071DE58 /* Frameworks */,
 			);
@@ -1043,6 +1351,7 @@
 				8C05B0032B63152B001A7CF3 /* badRecovery.framework */,
 				8C5FA8D42BDD36B6008C246F /* weightBufs.framework */,
 				8C5FA8E42BDD36BF008C246F /* multicast_bytecopy.framework */,
+				9BBC21FC2E32412300354848 /* libjailbreak.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1145,6 +1454,111 @@
 			path = kfd;
 			sourceTree = "<group>";
 		};
+		9BBC22002E32412300354848 /* libjailbreak */ = {
+			isa = PBXGroup;
+			children = (
+				9BBC22A42E32465900354848 /* ChOma */,
+				9BBC22372E32425D00354848 /* basebin_gen.h */,
+				9BBC22142E32425100354848 /* basebin_gen.m */,
+				9BBC22182E32425200354848 /* carboncopy.h */,
+				9BBC22442E32426000354848 /* carboncopy.m */,
+				9BBC22412E32425F00354848 /* codesign.h */,
+				9BBC22432E32426000354848 /* codesign.m */,
+				9BBC22252E32425A00354848 /* info.c */,
+				9BBC223E2E32425E00354848 /* info.h */,
+				9BBC222D2E32425C00354848 /* jbclient_mach.c */,
+				9BBC22452E32426000354848 /* jbclient_mach.h */,
+				9BBC22282E32425B00354848 /* jbclient_xpc.c */,
+				9BBC22462E32426000354848 /* jbclient_xpc.h */,
+				9BBC223F2E32425E00354848 /* jbroot.c */,
+				9BBC22302E32425C00354848 /* jbroot.h */,
+				9BBC22222E32425900354848 /* jbserver_boomerang.c */,
+				9BBC22322E32425D00354848 /* jbserver_boomerang.h */,
+				9BBC222F2E32425C00354848 /* jbserver_domains.h */,
+				9BBC22332E32425D00354848 /* jbserver.c */,
+				9BBC22422E32425F00354848 /* jbserver.h */,
+				9BBC221E2E32425600354848 /* kalloc_pt.h */,
+				9BBC22362E32425D00354848 /* kalloc_pt.m */,
+				9BBC222A2E32425B00354848 /* kcall_arm64.c */,
+				9BBC22382E32425E00354848 /* kcall_arm64.h */,
+				9BBC22172E32425200354848 /* kcall_Fugu14.c */,
+				9BBC22472E32426000354848 /* kcall_Fugu14.h */,
+				9BBC22292E32425B00354848 /* kcall_Fugu14.S */,
+				9BBC22342E32425D00354848 /* kernel.c */,
+				9BBC22272E32425B00354848 /* kernel.h */,
+				9BBC22352E32425D00354848 /* libjailbreak.h */,
+				9BBC22192E32425200354848 /* machine_info.h */,
+				9BBC22152E32425200354848 /* main.c */,
+				9BBC221D2E32425600354848 /* physrw_pte.c */,
+				9BBC222E2E32425C00354848 /* physrw_pte.h */,
+				9BBC222C2E32425C00354848 /* physrw.c */,
+				9BBC222B2E32425B00354848 /* physrw.h */,
+				9BBC22312E32425C00354848 /* primitives_external.h */,
+				9BBC22402E32425F00354848 /* primitives_IOSurface.h */,
+				9BBC22202E32425700354848 /* primitives_IOSurface.m */,
+				9BBC221F2E32425600354848 /* primitives.c */,
+				9BBC223D2E32425E00354848 /* primitives.h */,
+				9BBC223B2E32425E00354848 /* pte.h */,
+				9BBC223C2E32425E00354848 /* pvh.h */,
+				9BBC22212E32425800354848 /* signatures.c */,
+				9BBC223A2E32425E00354848 /* signatures.h */,
+				9BBC22392E32425E00354848 /* translation.c */,
+				9BBC221A2E32425200354848 /* translation.h */,
+				9BBC22242E32425900354848 /* trustcache_structs.h */,
+				9BBC22262E32425B00354848 /* trustcache.c */,
+				9BBC22232E32425900354848 /* trustcache.h */,
+				9BBC221B2E32425300354848 /* util.c */,
+				9BBC221C2E32425600354848 /* util.h */,
+				9BBC22162E32425200354848 /* util.m */,
+			);
+			path = libjailbreak;
+			sourceTree = "<group>";
+		};
+		9BBC22A42E32465900354848 /* ChOma */ = {
+			isa = PBXGroup;
+			children = (
+				9BBC22B22E32466F00354848 /* arm64.c */,
+				9BBC22C42E32467100354848 /* arm64.h */,
+				9BBC22B02E32466F00354848 /* Base64.c */,
+				9BBC22C92E32467200354848 /* Base64.h */,
+				9BBC22C32E32467100354848 /* BufferedStream.c */,
+				9BBC22BB2E32467000354848 /* BufferedStream.h */,
+				9BBC22B32E32466F00354848 /* CachePatching.h */,
+				9BBC22B52E32466F00354848 /* CodeDirectory.c */,
+				9BBC22BF2E32467000354848 /* CodeDirectory.h */,
+				9BBC22BC2E32467000354848 /* CSBlob.c */,
+				9BBC22B12E32466F00354848 /* CSBlob.h */,
+				9BBC22A82E32466D00354848 /* DER.c */,
+				9BBC22C72E32467100354848 /* DER.h */,
+				9BBC22A92E32466E00354848 /* dyld_cache_format.h */,
+				9BBC22C82E32467100354848 /* DyldSharedCache.c */,
+				9BBC22AE2E32466E00354848 /* DyldSharedCache.h */,
+				9BBC22B82E32466F00354848 /* Entitlements.c */,
+				9BBC22C12E32467100354848 /* Entitlements.h */,
+				9BBC22B42E32466F00354848 /* Fat.c */,
+				9BBC22AA2E32466E00354848 /* Fat.h */,
+				9BBC22C52E32467100354848 /* FileStream.c */,
+				9BBC22AB2E32466E00354848 /* FileStream.h */,
+				9BBC22BE2E32467000354848 /* fixup-chains.h */,
+				9BBC22B72E32466F00354848 /* Host.c */,
+				9BBC22B62E32466F00354848 /* Host.h */,
+				9BBC22C62E32467100354848 /* MachO.c */,
+				9BBC22A72E32466D00354848 /* MachO.h */,
+				9BBC22C22E32467100354848 /* MachOByteOrder.h */,
+				9BBC22CA2E32467200354848 /* MachOLoadCommand.c */,
+				9BBC22A52E32466D00354848 /* MachOLoadCommand.h */,
+				9BBC22AF2E32466E00354848 /* MemoryStream.c */,
+				9BBC22BD2E32467000354848 /* MemoryStream.h */,
+				9BBC22B92E32467000354848 /* PatchFinder_arm64.c */,
+				9BBC22AC2E32466E00354848 /* PatchFinder_arm64.h */,
+				9BBC22AD2E32466E00354848 /* PatchFinder.c */,
+				9BBC22A62E32466D00354848 /* PatchFinder.h */,
+				9BBC22BA2E32467000354848 /* Util.c */,
+				9BBC22C02E32467100354848 /* Util.h */,
+			);
+			name = ChOma;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1243,6 +1657,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BBC21F92E32412300354848 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBC22D02E32467200354848 /* Fat.h in Headers */,
+				9BBC22762E32426100354848 /* jbserver.h in Headers */,
+				9BBC22E62E32467200354848 /* Util.h in Headers */,
+				9BBC22EF2E32467200354848 /* Base64.h in Headers */,
+				9BBC22D12E32467200354848 /* FileStream.h in Headers */,
+				9BBC226B2E32426000354848 /* basebin_gen.h in Headers */,
+				9BBC22792E32426100354848 /* jbclient_mach.h in Headers */,
+				9BBC22ED2E32467200354848 /* DER.h in Headers */,
+				9BBC22E12E32467200354848 /* BufferedStream.h in Headers */,
+				9BBC22712E32426100354848 /* primitives.h in Headers */,
+				9BBC22572E32426000354848 /* trustcache.h in Headers */,
+				9BBC22622E32426000354848 /* physrw_pte.h in Headers */,
+				9BBC22662E32426000354848 /* jbserver_boomerang.h in Headers */,
+				9BBC22522E32426000354848 /* kalloc_pt.h in Headers */,
+				9BBC226E2E32426000354848 /* signatures.h in Headers */,
+				9BBC22632E32426000354848 /* jbserver_domains.h in Headers */,
+				9BBC227B2E32426100354848 /* kcall_Fugu14.h in Headers */,
+				9BBC22DC2E32467200354848 /* Host.h in Headers */,
+				9BBC22D92E32467200354848 /* CachePatching.h in Headers */,
+				9BBC22652E32426000354848 /* primitives_external.h in Headers */,
+				9BBC22E32E32467200354848 /* MemoryStream.h in Headers */,
+				9BBC224D2E32426000354848 /* machine_info.h in Headers */,
+				9BBC22702E32426100354848 /* pvh.h in Headers */,
+				9BBC226C2E32426000354848 /* kcall_arm64.h in Headers */,
+				9BBC22722E32426100354848 /* info.h in Headers */,
+				9BBC22EA2E32467200354848 /* arm64.h in Headers */,
+				9BBC22742E32426100354848 /* primitives_IOSurface.h in Headers */,
+				9BBC22CF2E32467200354848 /* dyld_cache_format.h in Headers */,
+				9BBC226F2E32426100354848 /* pte.h in Headers */,
+				9BBC224C2E32426000354848 /* carboncopy.h in Headers */,
+				9BBC225F2E32426000354848 /* physrw.h in Headers */,
+				9BBC22502E32426000354848 /* util.h in Headers */,
+				9BBC22692E32426000354848 /* libjailbreak.h in Headers */,
+				9BBC22E42E32467200354848 /* fixup-chains.h in Headers */,
+				9BBC224E2E32426000354848 /* translation.h in Headers */,
+				9BBC22E52E32467200354848 /* CodeDirectory.h in Headers */,
+				9BBC22752E32426100354848 /* codesign.h in Headers */,
+				9BBC22D72E32467200354848 /* CSBlob.h in Headers */,
+				9BBC22D42E32467200354848 /* DyldSharedCache.h in Headers */,
+				9BBC22582E32426000354848 /* trustcache_structs.h in Headers */,
+				9BBC227A2E32426100354848 /* jbclient_xpc.h in Headers */,
+				9BBC22E82E32467200354848 /* MachOByteOrder.h in Headers */,
+				9BBC22642E32426000354848 /* jbroot.h in Headers */,
+				9BBC22CC2E32467200354848 /* PatchFinder.h in Headers */,
+				9BBC22E72E32467200354848 /* Entitlements.h in Headers */,
+				9BBC22CD2E32467200354848 /* MachO.h in Headers */,
+				9BBC22CB2E32467200354848 /* MachOLoadCommand.h in Headers */,
+				9BBC225B2E32426000354848 /* kernel.h in Headers */,
+				9BBC22D22E32467200354848 /* PatchFinder_arm64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1255,10 +1725,12 @@
 				8C05B0002B63152B001A7CF3 /* Frameworks */,
 				8C05B0012B63152B001A7CF3 /* Resources */,
 				8C05B0122B631589001A7CF3 /* ShellScript */,
+				9BBC228A2E32426F00354848 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9BBC22892E32426F00354848 /* PBXTargetDependency */,
 			);
 			name = badRecovery;
 			productName = badRecovery;
@@ -1274,10 +1746,12 @@
 				8C2B1FDC2B532374009BA166 /* Frameworks */,
 				8C2B1FDD2B532374009BA166 /* Resources */,
 				8C2B1FED2B5323A3009BA166 /* Run Script */,
+				9BBC22852E32426A00354848 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9BBC22842E32426A00354848 /* PBXTargetDependency */,
 			);
 			name = dmaFail;
 			productName = dmaFail;
@@ -1293,10 +1767,12 @@
 				8C5FA8D12BDD36B6008C246F /* Frameworks */,
 				8C5FA8D22BDD36B6008C246F /* Resources */,
 				8C5FA93D2BDD4FFF008C246F /* ShellScript */,
+				9BBC228F2E32427500354848 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9BBC228E2E32427500354848 /* PBXTargetDependency */,
 			);
 			name = weightBufs;
 			productName = weightBufs;
@@ -1312,10 +1788,12 @@
 				8C5FA8E12BDD36BF008C246F /* Frameworks */,
 				8C5FA8E22BDD36BF008C246F /* Resources */,
 				8C5FA93E2BDD501C008C246F /* ShellScript */,
+				9BBC22942E32427B00354848 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9BBC22932E32427A00354848 /* PBXTargetDependency */,
 			);
 			name = multicast_bytecopy;
 			productName = multicast_bytecopy;
@@ -1358,15 +1836,34 @@
 				8CDD07A42B4F619000A32B61 /* Frameworks */,
 				8C2B1FC42B52FA81009BA166 /* Resources */,
 				8C4ABEB82B520C1600B43C9B /* Run Script */,
+				9BBC22802E32426500354848 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9BBC227F2E32426400354848 /* PBXTargetDependency */,
 			);
 			name = kfd;
 			productName = kfd;
 			productReference = 8CDD07A72B4F619000A32B61 /* kfd.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9BBC21FB2E32412300354848 /* libjailbreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BBC220D2E32412300354848 /* Build configuration list for PBXNativeTarget "libjailbreak" */;
+			buildPhases = (
+				9BBC21F72E32412300354848 /* Sources */,
+				9BBC21F82E32412300354848 /* Frameworks */,
+				9BBC21F92E32412300354848 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libjailbreak;
+			productName = libjailbreak;
+			productReference = 9BBC21FC2E32412300354848 /* libjailbreak.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
@@ -1394,6 +1891,9 @@
 					};
 					8CDD07A62B4F619000A32B61 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					9BBC21FB2E32412300354848 = {
+						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
@@ -1444,6 +1944,7 @@
 				8C05B0022B63152B001A7CF3 /* badRecovery */,
 				8C5FA8D32BDD36B6008C246F /* weightBufs */,
 				8C5FA8E32BDD36BF008C246F /* multicast_bytecopy */,
+				9BBC21FB2E32412300354848 /* libjailbreak */,
 			);
 		};
 /* End PBXProject section */
@@ -1732,6 +2233,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BBC21F72E32412300354848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BBC22672E32426000354848 /* jbserver.c in Sources */,
+				9BBC22EB2E32467200354848 /* FileStream.c in Sources */,
+				9BBC22EE2E32467200354848 /* DyldSharedCache.c in Sources */,
+				9BBC22E92E32467200354848 /* BufferedStream.c in Sources */,
+				9BBC22F02E32467200354848 /* MachOLoadCommand.c in Sources */,
+				9BBC225C2E32426000354848 /* jbclient_xpc.c in Sources */,
+				9BBC22512E32426000354848 /* physrw_pte.c in Sources */,
+				9BBC22DA2E32467200354848 /* Fat.c in Sources */,
+				9BBC22EC2E32467200354848 /* MachO.c in Sources */,
+				9BBC224F2E32426000354848 /* util.c in Sources */,
+				9BBC22D82E32467200354848 /* arm64.c in Sources */,
+				9BBC225D2E32426000354848 /* kcall_Fugu14.S in Sources */,
+				9BBC22492E32426000354848 /* main.c in Sources */,
+				9BBC22D62E32467200354848 /* Base64.c in Sources */,
+				9BBC22562E32426000354848 /* jbserver_boomerang.c in Sources */,
+				9BBC22602E32426000354848 /* physrw.c in Sources */,
+				9BBC224B2E32426000354848 /* kcall_Fugu14.c in Sources */,
+				9BBC22D52E32467200354848 /* MemoryStream.c in Sources */,
+				9BBC22732E32426100354848 /* jbroot.c in Sources */,
+				9BBC22552E32426000354848 /* signatures.c in Sources */,
+				9BBC22682E32426000354848 /* kernel.c in Sources */,
+				9BBC22592E32426000354848 /* info.c in Sources */,
+				9BBC22DB2E32467200354848 /* CodeDirectory.c in Sources */,
+				9BBC224A2E32426000354848 /* util.m in Sources */,
+				9BBC22DF2E32467200354848 /* PatchFinder_arm64.c in Sources */,
+				9BBC22E02E32467200354848 /* Util.c in Sources */,
+				9BBC22612E32426000354848 /* jbclient_mach.c in Sources */,
+				9BBC22E22E32467200354848 /* CSBlob.c in Sources */,
+				9BBC22542E32426000354848 /* primitives_IOSurface.m in Sources */,
+				9BBC22DD2E32467200354848 /* Host.c in Sources */,
+				9BBC226A2E32426000354848 /* kalloc_pt.m in Sources */,
+				9BBC22CE2E32467200354848 /* DER.c in Sources */,
+				9BBC22772E32426100354848 /* codesign.m in Sources */,
+				9BBC22532E32426000354848 /* primitives.c in Sources */,
+				9BBC22D32E32467200354848 /* PatchFinder.c in Sources */,
+				9BBC22DE2E32467200354848 /* Entitlements.c in Sources */,
+				9BBC226D2E32426000354848 /* translation.c in Sources */,
+				9BBC225E2E32426000354848 /* kcall_arm64.c in Sources */,
+				9BBC22482E32426000354848 /* basebin_gen.m in Sources */,
+				9BBC225A2E32426000354848 /* trustcache.c in Sources */,
+				9BBC22782E32426100354848 /* carboncopy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1759,6 +2308,31 @@
 			isa = PBXTargetDependency;
 			target = 8CDD07A62B4F619000A32B61 /* kfd */;
 			targetProxy = 8CDD07AB2B4F619000A32B61 /* PBXContainerItemProxy */;
+		};
+		9BBC227F2E32426400354848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BBC21FB2E32412300354848 /* libjailbreak */;
+			targetProxy = 9BBC227E2E32426400354848 /* PBXContainerItemProxy */;
+		};
+		9BBC22842E32426A00354848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BBC21FB2E32412300354848 /* libjailbreak */;
+			targetProxy = 9BBC22832E32426A00354848 /* PBXContainerItemProxy */;
+		};
+		9BBC22892E32426F00354848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BBC21FB2E32412300354848 /* libjailbreak */;
+			targetProxy = 9BBC22882E32426F00354848 /* PBXContainerItemProxy */;
+		};
+		9BBC228E2E32427500354848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BBC21FB2E32412300354848 /* libjailbreak */;
+			targetProxy = 9BBC228D2E32427500354848 /* PBXContainerItemProxy */;
+		};
+		9BBC22932E32427A00354848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BBC21FB2E32412300354848 /* libjailbreak */;
+			targetProxy = 9BBC22922E32427A00354848 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2363,6 +2937,101 @@
 			};
 			name = Release;
 		};
+		9BBC220E2E32412300354848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/Frameworks";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../BaseBin/.include",
+					"$(SRCROOT)/../BaseBin/_external/include/libarchive/",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libjailbreak\\\"\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libjailbreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9BBC220F2E32412300354848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/Frameworks";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../BaseBin/.include",
+					"$(SRCROOT)/../BaseBin/_external/include/libarchive/",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libjailbreak\\\"\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libjailbreak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2425,6 +3094,15 @@
 			buildConfigurations = (
 				8CDD07B02B4F619000A32B61 /* Debug */,
 				8CDD07B12B4F619000A32B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BBC220D2E32412300354848 /* Build configuration list for PBXNativeTarget "libjailbreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BBC220E2E32412300354848 /* Debug */,
+				9BBC220F2E32412300354848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
