@@ -189,10 +189,69 @@
 		8CDD08362B4F682000A32B61 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08352B4F682000A32B61 /* IOSurface.framework */; };
 		8CDD08382B4F682500A32B61 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08372B4F682500A32B61 /* IOKit.framework */; };
 		8CDD08412B4F6D8700A32B61 /* libgrabkernel2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD083B2B4F6D8200A32B61 /* libgrabkernel2.a */; };
-		8CDD08462B4F6DD800A32B61 /* libchoma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08432B4F6DD800A32B61 /* libchoma.dylib */; };
-		8CDD08472B4F6DD800A32B61 /* libxpf.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDD08442B4F6DD800A32B61 /* libxpf.dylib */; };
-		8CDD08482B4F6DF100A32B61 /* libxpf.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08442B4F6DD800A32B61 /* libxpf.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		8CDD084A2B4F6DF800A32B61 /* libchoma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 8CDD08432B4F6DD800A32B61 /* libchoma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9B3182772E3330AA00F6D4BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21BE2E323EC700354848 /* UIKit.framework */; };
+		9B3182782E3330AA00F6D4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21C02E323EC800354848 /* Foundation.framework */; };
+		9B3182912E33312B00F6D4BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21BE2E323EC700354848 /* UIKit.framework */; };
+		9B3182922E33312B00F6D4BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21C02E323EC800354848 /* Foundation.framework */; };
+		9B3182DB2E3332C600F6D4BF /* libchoma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3182902E33312B00F6D4BF /* libchoma.dylib */; };
+		9B3182DC2E3332C600F6D4BF /* libchoma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9B3182902E33312B00F6D4BF /* libchoma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9B3182EF2E3332F500F6D4BF /* bad_recovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3182E02E3332F300F6D4BF /* bad_recovery.h */; };
+		9B3182F02E3332F500F6D4BF /* bad_recovery.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3182E12E3332F300F6D4BF /* bad_recovery.c */; };
+		9B3182F12E3332F500F6D4BF /* ppl.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3182E22E3332F300F6D4BF /* ppl.c */; };
+		9B3182F22E3332F500F6D4BF /* xpf.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3182E32E3332F400F6D4BF /* xpf.c */; };
+		9B3182F32E3332F500F6D4BF /* xpf.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3182E42E3332F400F6D4BF /* xpf.h */; };
+		9B3182F42E3332F500F6D4BF /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3182E52E3332F400F6D4BF /* common.c */; };
+		9B3182F52E3332F500F6D4BF /* non_ppl.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3182E62E3332F400F6D4BF /* non_ppl.c */; };
+		9B3182F62E3332F500F6D4BF /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3182E82E3332F400F6D4BF /* main.c */; };
+		9B3182F72E3332F500F6D4BF /* non_ppl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3182EA2E3332F500F6D4BF /* non_ppl.h */; };
+		9B3182F82E3332F500F6D4BF /* ppl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3182EB2E3332F500F6D4BF /* ppl.h */; };
+		9B3182F92E3332F500F6D4BF /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3182EC2E3332F500F6D4BF /* common.h */; };
+		9B3182FA2E3332F500F6D4BF /* decompress.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3182ED2E3332F500F6D4BF /* decompress.c */; };
+		9B3182FB2E3332F500F6D4BF /* decompress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3182EE2E3332F500F6D4BF /* decompress.h */; };
+		9B3182FC2E3333CF00F6D4BF /* libchoma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3182902E33312B00F6D4BF /* libchoma.dylib */; };
+		9B3182FD2E3333CF00F6D4BF /* libchoma.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 9B3182902E33312B00F6D4BF /* libchoma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9B3183012E3333FB00F6D4BF /* libchoma.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3182902E33312B00F6D4BF /* libchoma.dylib */; };
+		9B3183022E3333FB00F6D4BF /* libchoma.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3182902E33312B00F6D4BF /* libchoma.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9B3183052E3333FC00F6D4BF /* libxpf.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3182762E3330A900F6D4BF /* libxpf.dylib */; };
+		9B3183062E3333FC00F6D4BF /* libxpf.dylib in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3182762E3330A900F6D4BF /* libxpf.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9B31832F2E33350E00F6D4BF /* Host.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183092E33350600F6D4BF /* Host.c */; };
+		9B3183302E33350E00F6D4BF /* MachO.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31830A2E33350600F6D4BF /* MachO.h */; };
+		9B3183312E33350E00F6D4BF /* BufferedStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31830B2E33350600F6D4BF /* BufferedStream.h */; };
+		9B3183322E33350E00F6D4BF /* Entitlements.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31830C2E33350600F6D4BF /* Entitlements.h */; };
+		9B3183332E33350E00F6D4BF /* Host.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31830D2E33350600F6D4BF /* Host.h */; };
+		9B3183342E33350E00F6D4BF /* MachOByteOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31830E2E33350700F6D4BF /* MachOByteOrder.h */; };
+		9B3183352E33350E00F6D4BF /* MemoryStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31830F2E33350700F6D4BF /* MemoryStream.h */; };
+		9B3183362E33350E00F6D4BF /* Util.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183102E33350700F6D4BF /* Util.c */; };
+		9B3183372E33350E00F6D4BF /* CSBlob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183112E33350700F6D4BF /* CSBlob.h */; };
+		9B3183382E33350E00F6D4BF /* FileStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183122E33350700F6D4BF /* FileStream.c */; };
+		9B3183392E33350E00F6D4BF /* PatchFinder_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183132E33350700F6D4BF /* PatchFinder_arm64.h */; };
+		9B31833A2E33350E00F6D4BF /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183142E33350700F6D4BF /* FileStream.h */; };
+		9B31833B2E33350E00F6D4BF /* arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183152E33350700F6D4BF /* arm64.c */; };
+		9B31833C2E33350E00F6D4BF /* dyld_cache_format.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183162E33350800F6D4BF /* dyld_cache_format.h */; };
+		9B31833D2E33350E00F6D4BF /* arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183172E33350900F6D4BF /* arm64.h */; };
+		9B31833E2E33350E00F6D4BF /* DER.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183182E33350900F6D4BF /* DER.c */; };
+		9B31833F2E33350E00F6D4BF /* DyldSharedCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183192E33350900F6D4BF /* DyldSharedCache.h */; };
+		9B3183402E33350E00F6D4BF /* Base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B31831A2E33350900F6D4BF /* Base64.c */; };
+		9B3183412E33350E00F6D4BF /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31831B2E33350900F6D4BF /* Base64.h */; };
+		9B3183422E33350E00F6D4BF /* CodeDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31831C2E33350900F6D4BF /* CodeDirectory.h */; };
+		9B3183432E33350E00F6D4BF /* MachOLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31831D2E33350A00F6D4BF /* MachOLoadCommand.h */; };
+		9B3183442E33350E00F6D4BF /* BufferedStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B31831E2E33350A00F6D4BF /* BufferedStream.c */; };
+		9B3183452E33350E00F6D4BF /* PatchFinder_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B31831F2E33350A00F6D4BF /* PatchFinder_arm64.c */; };
+		9B3183462E33350E00F6D4BF /* CSBlob.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183202E33350A00F6D4BF /* CSBlob.c */; };
+		9B3183472E33350E00F6D4BF /* Entitlements.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183212E33350B00F6D4BF /* Entitlements.c */; };
+		9B3183482E33350E00F6D4BF /* DyldSharedCache.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183222E33350B00F6D4BF /* DyldSharedCache.c */; };
+		9B3183492E33350E00F6D4BF /* fixup-chains.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183232E33350B00F6D4BF /* fixup-chains.h */; };
+		9B31834A2E33350E00F6D4BF /* PatchFinder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183242E33350C00F6D4BF /* PatchFinder.c */; };
+		9B31834B2E33350E00F6D4BF /* Fat.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183252E33350C00F6D4BF /* Fat.c */; };
+		9B31834C2E33350E00F6D4BF /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183262E33350C00F6D4BF /* Util.h */; };
+		9B31834D2E33350E00F6D4BF /* MachO.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3183272E33350C00F6D4BF /* MachO.c */; };
+		9B31834E2E33350E00F6D4BF /* Fat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183282E33350C00F6D4BF /* Fat.h */; };
+		9B31834F2E33350E00F6D4BF /* CachePatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3183292E33350D00F6D4BF /* CachePatching.h */; };
+		9B3183502E33350E00F6D4BF /* MachOLoadCommand.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B31832A2E33350D00F6D4BF /* MachOLoadCommand.c */; };
+		9B3183512E33350E00F6D4BF /* DER.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31832B2E33350D00F6D4BF /* DER.h */; };
+		9B3183522E33350E00F6D4BF /* CodeDirectory.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B31832C2E33350D00F6D4BF /* CodeDirectory.c */; };
+		9B3183532E33350E00F6D4BF /* MemoryStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B31832D2E33350E00F6D4BF /* MemoryStream.c */; };
+		9B3183542E33350E00F6D4BF /* PatchFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B31832E2E33350E00F6D4BF /* PatchFinder.h */; };
 		9B9E5BA32E320005000AE2FD /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */; };
 		9B9E5BA52E32009E000AE2FD /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA42E320099000AE2FD /* libbsm.tbd */; };
 		9BBC21FD2E32412300354848 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC21BE2E323EC700354848 /* UIKit.framework */; };
@@ -266,44 +325,6 @@
 		9BBC22972E32449A00354848 /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */; };
 		9BBC22992E3244C700354848 /* libarchive.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC22982E3244C400354848 /* libarchive.2.tbd */; };
 		9BBC229B2E32450B00354848 /* libbsm.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC229A2E32450700354848 /* libbsm.tbd */; };
-		9BBC22CB2E32467200354848 /* MachOLoadCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A52E32466D00354848 /* MachOLoadCommand.h */; };
-		9BBC22CC2E32467200354848 /* PatchFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A62E32466D00354848 /* PatchFinder.h */; };
-		9BBC22CD2E32467200354848 /* MachO.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A72E32466D00354848 /* MachO.h */; };
-		9BBC22CE2E32467200354848 /* DER.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22A82E32466D00354848 /* DER.c */; };
-		9BBC22CF2E32467200354848 /* dyld_cache_format.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22A92E32466E00354848 /* dyld_cache_format.h */; };
-		9BBC22D02E32467200354848 /* Fat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AA2E32466E00354848 /* Fat.h */; };
-		9BBC22D12E32467200354848 /* FileStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AB2E32466E00354848 /* FileStream.h */; };
-		9BBC22D22E32467200354848 /* PatchFinder_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AC2E32466E00354848 /* PatchFinder_arm64.h */; };
-		9BBC22D32E32467200354848 /* PatchFinder.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22AD2E32466E00354848 /* PatchFinder.c */; };
-		9BBC22D42E32467200354848 /* DyldSharedCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22AE2E32466E00354848 /* DyldSharedCache.h */; };
-		9BBC22D52E32467200354848 /* MemoryStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22AF2E32466E00354848 /* MemoryStream.c */; };
-		9BBC22D62E32467200354848 /* Base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B02E32466F00354848 /* Base64.c */; };
-		9BBC22D72E32467200354848 /* CSBlob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22B12E32466F00354848 /* CSBlob.h */; };
-		9BBC22D82E32467200354848 /* arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B22E32466F00354848 /* arm64.c */; };
-		9BBC22D92E32467200354848 /* CachePatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22B32E32466F00354848 /* CachePatching.h */; };
-		9BBC22DA2E32467200354848 /* Fat.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B42E32466F00354848 /* Fat.c */; };
-		9BBC22DB2E32467200354848 /* CodeDirectory.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B52E32466F00354848 /* CodeDirectory.c */; };
-		9BBC22DC2E32467200354848 /* Host.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22B62E32466F00354848 /* Host.h */; };
-		9BBC22DD2E32467200354848 /* Host.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B72E32466F00354848 /* Host.c */; };
-		9BBC22DE2E32467200354848 /* Entitlements.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B82E32466F00354848 /* Entitlements.c */; };
-		9BBC22DF2E32467200354848 /* PatchFinder_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22B92E32467000354848 /* PatchFinder_arm64.c */; };
-		9BBC22E02E32467200354848 /* Util.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22BA2E32467000354848 /* Util.c */; };
-		9BBC22E12E32467200354848 /* BufferedStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BB2E32467000354848 /* BufferedStream.h */; };
-		9BBC22E22E32467200354848 /* CSBlob.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22BC2E32467000354848 /* CSBlob.c */; };
-		9BBC22E32E32467200354848 /* MemoryStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BD2E32467000354848 /* MemoryStream.h */; };
-		9BBC22E42E32467200354848 /* fixup-chains.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BE2E32467000354848 /* fixup-chains.h */; };
-		9BBC22E52E32467200354848 /* CodeDirectory.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22BF2E32467000354848 /* CodeDirectory.h */; };
-		9BBC22E62E32467200354848 /* Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C02E32467100354848 /* Util.h */; };
-		9BBC22E72E32467200354848 /* Entitlements.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C12E32467100354848 /* Entitlements.h */; };
-		9BBC22E82E32467200354848 /* MachOByteOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C22E32467100354848 /* MachOByteOrder.h */; };
-		9BBC22E92E32467200354848 /* BufferedStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C32E32467100354848 /* BufferedStream.c */; };
-		9BBC22EA2E32467200354848 /* arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C42E32467100354848 /* arm64.h */; };
-		9BBC22EB2E32467200354848 /* FileStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C52E32467100354848 /* FileStream.c */; };
-		9BBC22EC2E32467200354848 /* MachO.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C62E32467100354848 /* MachO.c */; };
-		9BBC22ED2E32467200354848 /* DER.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C72E32467100354848 /* DER.h */; };
-		9BBC22EE2E32467200354848 /* DyldSharedCache.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22C82E32467100354848 /* DyldSharedCache.c */; };
-		9BBC22EF2E32467200354848 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBC22C92E32467200354848 /* Base64.h */; };
-		9BBC22F02E32467200354848 /* MachOLoadCommand.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC22CA2E32467200354848 /* MachOLoadCommand.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -341,6 +362,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8CDD07A62B4F619000A32B61;
 			remoteInfo = kfd;
+		};
+		9B3182DD2E3332C600F6D4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B31828F2E33312B00F6D4BF;
+			remoteInfo = libchoma;
+		};
+		9B3182FE2E3333CF00F6D4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B31828F2E33312B00F6D4BF;
+			remoteInfo = libchoma;
+		};
+		9B3183032E3333FC00F6D4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B31828F2E33312B00F6D4BF;
+			remoteInfo = libchoma;
+		};
+		9B3183072E3333FC00F6D4BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B3182752E3330A900F6D4BF;
+			remoteInfo = libxpf;
 		};
 		9BBC227E2E32426400354848 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -380,18 +429,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8C029F5C2B4E21F50071DE58 /* Embed Libraries */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 6;
-			files = (
-				8CDD084A2B4F6DF800A32B61 /* libchoma.dylib in Embed Libraries */,
-				8CDD08482B4F6DF100A32B61 /* libxpf.dylib in Embed Libraries */,
-			);
-			name = "Embed Libraries";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8CDD07AE2B4F619000A32B61 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -401,11 +438,35 @@
 				8C5FA8DB2BDD36B6008C246F /* weightBufs.framework in Embed Frameworks */,
 				8CDD07AF2B4F619000A32B61 /* kfd.framework in Embed Frameworks */,
 				9BBC22112E3241DF00354848 /* libjailbreak.dylib in Embed Frameworks */,
+				9B3183062E3333FC00F6D4BF /* libxpf.dylib in Embed Frameworks */,
 				8C2B1FF42B53492B009BA166 /* dmaFail.framework in Embed Frameworks */,
 				8C5FA8EB2BDD36BF008C246F /* multicast_bytecopy.framework in Embed Frameworks */,
 				8C05B0152B631738001A7CF3 /* badRecovery.framework in Embed Frameworks */,
+				9B3183022E3333FB00F6D4BF /* libchoma.dylib in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3182DF2E3332C600F6D4BF /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B3182DC2E3332C600F6D4BF /* libchoma.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B3183002E3333D000F6D4BF /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B3182FD2E3333CF00F6D4BF /* libchoma.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9BBC22802E32426500354848 /* Embed Libraries */ = {
@@ -730,6 +791,60 @@
 		8CDD08422B4F6DD800A32B61 /* libjailbreak.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjailbreak.dylib; path = ../BaseBin/.build/libjailbreak.dylib; sourceTree = "<group>"; };
 		8CDD08432B4F6DD800A32B61 /* libchoma.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libchoma.dylib; path = ../BaseBin/.build/libchoma.dylib; sourceTree = "<group>"; };
 		8CDD08442B4F6DD800A32B61 /* libxpf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxpf.dylib; path = ../BaseBin/.build/libxpf.dylib; sourceTree = "<group>"; };
+		9B3182762E3330A900F6D4BF /* libxpf.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libxpf.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3182902E33312B00F6D4BF /* libchoma.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libchoma.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3182E02E3332F300F6D4BF /* bad_recovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bad_recovery.h; path = ../../BaseBin/XPF/src/bad_recovery.h; sourceTree = "<group>"; };
+		9B3182E12E3332F300F6D4BF /* bad_recovery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bad_recovery.c; path = ../../BaseBin/XPF/src/bad_recovery.c; sourceTree = "<group>"; };
+		9B3182E22E3332F300F6D4BF /* ppl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ppl.c; path = ../../BaseBin/XPF/src/ppl.c; sourceTree = "<group>"; };
+		9B3182E32E3332F400F6D4BF /* xpf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xpf.c; path = ../../BaseBin/XPF/src/xpf.c; sourceTree = "<group>"; };
+		9B3182E42E3332F400F6D4BF /* xpf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xpf.h; path = ../../BaseBin/XPF/src/xpf.h; sourceTree = "<group>"; };
+		9B3182E52E3332F400F6D4BF /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = common.c; path = ../../BaseBin/XPF/src/common.c; sourceTree = "<group>"; };
+		9B3182E62E3332F400F6D4BF /* non_ppl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = non_ppl.c; path = ../../BaseBin/XPF/src/non_ppl.c; sourceTree = "<group>"; };
+		9B3182E82E3332F400F6D4BF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9B3182E92E3332F400F6D4BF /* decompress.LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = decompress.LICENSE; path = ../../BaseBin/XPF/src/decompress.LICENSE; sourceTree = "<group>"; };
+		9B3182EA2E3332F500F6D4BF /* non_ppl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = non_ppl.h; path = ../../BaseBin/XPF/src/non_ppl.h; sourceTree = "<group>"; };
+		9B3182EB2E3332F500F6D4BF /* ppl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ppl.h; path = ../../BaseBin/XPF/src/ppl.h; sourceTree = "<group>"; };
+		9B3182EC2E3332F500F6D4BF /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = ../../BaseBin/XPF/src/common.h; sourceTree = "<group>"; };
+		9B3182ED2E3332F500F6D4BF /* decompress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = decompress.c; path = ../../BaseBin/XPF/src/decompress.c; sourceTree = "<group>"; };
+		9B3182EE2E3332F500F6D4BF /* decompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = decompress.h; path = ../../BaseBin/XPF/src/decompress.h; sourceTree = "<group>"; };
+		9B3183092E33350600F6D4BF /* Host.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Host.c; path = ../../BaseBin/ChOma/src/Host.c; sourceTree = "<group>"; };
+		9B31830A2E33350600F6D4BF /* MachO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachO.h; path = ../../BaseBin/ChOma/src/MachO.h; sourceTree = "<group>"; };
+		9B31830B2E33350600F6D4BF /* BufferedStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BufferedStream.h; path = ../../BaseBin/ChOma/src/BufferedStream.h; sourceTree = "<group>"; };
+		9B31830C2E33350600F6D4BF /* Entitlements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entitlements.h; path = ../../BaseBin/ChOma/src/Entitlements.h; sourceTree = "<group>"; };
+		9B31830D2E33350600F6D4BF /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Host.h; path = ../../BaseBin/ChOma/src/Host.h; sourceTree = "<group>"; };
+		9B31830E2E33350700F6D4BF /* MachOByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachOByteOrder.h; path = ../../BaseBin/ChOma/src/MachOByteOrder.h; sourceTree = "<group>"; };
+		9B31830F2E33350700F6D4BF /* MemoryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryStream.h; path = ../../BaseBin/ChOma/src/MemoryStream.h; sourceTree = "<group>"; };
+		9B3183102E33350700F6D4BF /* Util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Util.c; path = ../../BaseBin/ChOma/src/Util.c; sourceTree = "<group>"; };
+		9B3183112E33350700F6D4BF /* CSBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSBlob.h; path = ../../BaseBin/ChOma/src/CSBlob.h; sourceTree = "<group>"; };
+		9B3183122E33350700F6D4BF /* FileStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = FileStream.c; path = ../../BaseBin/ChOma/src/FileStream.c; sourceTree = "<group>"; };
+		9B3183132E33350700F6D4BF /* PatchFinder_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchFinder_arm64.h; path = ../../BaseBin/ChOma/src/PatchFinder_arm64.h; sourceTree = "<group>"; };
+		9B3183142E33350700F6D4BF /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileStream.h; path = ../../BaseBin/ChOma/src/FileStream.h; sourceTree = "<group>"; };
+		9B3183152E33350700F6D4BF /* arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arm64.c; path = ../../BaseBin/ChOma/src/arm64.c; sourceTree = "<group>"; };
+		9B3183162E33350800F6D4BF /* dyld_cache_format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dyld_cache_format.h; path = ../../BaseBin/ChOma/src/dyld_cache_format.h; sourceTree = "<group>"; };
+		9B3183172E33350900F6D4BF /* arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arm64.h; path = ../../BaseBin/ChOma/src/arm64.h; sourceTree = "<group>"; };
+		9B3183182E33350900F6D4BF /* DER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DER.c; path = ../../BaseBin/ChOma/src/DER.c; sourceTree = "<group>"; };
+		9B3183192E33350900F6D4BF /* DyldSharedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DyldSharedCache.h; path = ../../BaseBin/ChOma/src/DyldSharedCache.h; sourceTree = "<group>"; };
+		9B31831A2E33350900F6D4BF /* Base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Base64.c; path = ../../BaseBin/ChOma/src/Base64.c; sourceTree = "<group>"; };
+		9B31831B2E33350900F6D4BF /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = ../../BaseBin/ChOma/src/Base64.h; sourceTree = "<group>"; };
+		9B31831C2E33350900F6D4BF /* CodeDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeDirectory.h; path = ../../BaseBin/ChOma/src/CodeDirectory.h; sourceTree = "<group>"; };
+		9B31831D2E33350A00F6D4BF /* MachOLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachOLoadCommand.h; path = ../../BaseBin/ChOma/src/MachOLoadCommand.h; sourceTree = "<group>"; };
+		9B31831E2E33350A00F6D4BF /* BufferedStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BufferedStream.c; path = ../../BaseBin/ChOma/src/BufferedStream.c; sourceTree = "<group>"; };
+		9B31831F2E33350A00F6D4BF /* PatchFinder_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PatchFinder_arm64.c; path = ../../BaseBin/ChOma/src/PatchFinder_arm64.c; sourceTree = "<group>"; };
+		9B3183202E33350A00F6D4BF /* CSBlob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CSBlob.c; path = ../../BaseBin/ChOma/src/CSBlob.c; sourceTree = "<group>"; };
+		9B3183212E33350B00F6D4BF /* Entitlements.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Entitlements.c; path = ../../BaseBin/ChOma/src/Entitlements.c; sourceTree = "<group>"; };
+		9B3183222E33350B00F6D4BF /* DyldSharedCache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DyldSharedCache.c; path = ../../BaseBin/ChOma/src/DyldSharedCache.c; sourceTree = "<group>"; };
+		9B3183232E33350B00F6D4BF /* fixup-chains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "fixup-chains.h"; path = "../../BaseBin/ChOma/src/fixup-chains.h"; sourceTree = "<group>"; };
+		9B3183242E33350C00F6D4BF /* PatchFinder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PatchFinder.c; path = ../../BaseBin/ChOma/src/PatchFinder.c; sourceTree = "<group>"; };
+		9B3183252E33350C00F6D4BF /* Fat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Fat.c; path = ../../BaseBin/ChOma/src/Fat.c; sourceTree = "<group>"; };
+		9B3183262E33350C00F6D4BF /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../../BaseBin/ChOma/src/Util.h; sourceTree = "<group>"; };
+		9B3183272E33350C00F6D4BF /* MachO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MachO.c; path = ../../BaseBin/ChOma/src/MachO.c; sourceTree = "<group>"; };
+		9B3183282E33350C00F6D4BF /* Fat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fat.h; path = ../../BaseBin/ChOma/src/Fat.h; sourceTree = "<group>"; };
+		9B3183292E33350D00F6D4BF /* CachePatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CachePatching.h; path = ../../BaseBin/ChOma/src/CachePatching.h; sourceTree = "<group>"; };
+		9B31832A2E33350D00F6D4BF /* MachOLoadCommand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MachOLoadCommand.c; path = ../../BaseBin/ChOma/src/MachOLoadCommand.c; sourceTree = "<group>"; };
+		9B31832B2E33350D00F6D4BF /* DER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DER.h; path = ../../BaseBin/ChOma/src/DER.h; sourceTree = "<group>"; };
+		9B31832C2E33350D00F6D4BF /* CodeDirectory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CodeDirectory.c; path = ../../BaseBin/ChOma/src/CodeDirectory.c; sourceTree = "<group>"; };
+		9B31832D2E33350E00F6D4BF /* MemoryStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MemoryStream.c; path = ../../BaseBin/ChOma/src/MemoryStream.c; sourceTree = "<group>"; };
+		9B31832E2E33350E00F6D4BF /* PatchFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchFinder.h; path = ../../BaseBin/ChOma/src/PatchFinder.h; sourceTree = "<group>"; };
 		9B9E5BA22E320000000AE2FD /* libarchive.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.2.tbd; path = usr/lib/libarchive.2.tbd; sourceTree = SDKROOT; };
 		9B9E5BA42E320099000AE2FD /* libbsm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.tbd; path = usr/lib/libbsm.tbd; sourceTree = SDKROOT; };
 		9BBC21BE2E323EC700354848 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -790,44 +905,6 @@
 		9BBC22472E32426000354848 /* kcall_Fugu14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kcall_Fugu14.h; path = ../../BaseBin/libjailbreak/src/kcall_Fugu14.h; sourceTree = "<group>"; };
 		9BBC22982E3244C400354848 /* libarchive.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libarchive.2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libarchive.2.tbd; sourceTree = DEVELOPER_DIR; };
 		9BBC229A2E32450700354848 /* libbsm.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbsm.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/usr/lib/libbsm.tbd; sourceTree = DEVELOPER_DIR; };
-		9BBC22A52E32466D00354848 /* MachOLoadCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachOLoadCommand.h; path = ../../BaseBin/ChOma/src/MachOLoadCommand.h; sourceTree = "<group>"; };
-		9BBC22A62E32466D00354848 /* PatchFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchFinder.h; path = ../../BaseBin/ChOma/src/PatchFinder.h; sourceTree = "<group>"; };
-		9BBC22A72E32466D00354848 /* MachO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachO.h; path = ../../BaseBin/ChOma/src/MachO.h; sourceTree = "<group>"; };
-		9BBC22A82E32466D00354848 /* DER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DER.c; path = ../../BaseBin/ChOma/src/DER.c; sourceTree = "<group>"; };
-		9BBC22A92E32466E00354848 /* dyld_cache_format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dyld_cache_format.h; path = ../../BaseBin/ChOma/src/dyld_cache_format.h; sourceTree = "<group>"; };
-		9BBC22AA2E32466E00354848 /* Fat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fat.h; path = ../../BaseBin/ChOma/src/Fat.h; sourceTree = "<group>"; };
-		9BBC22AB2E32466E00354848 /* FileStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileStream.h; path = ../../BaseBin/ChOma/src/FileStream.h; sourceTree = "<group>"; };
-		9BBC22AC2E32466E00354848 /* PatchFinder_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatchFinder_arm64.h; path = ../../BaseBin/ChOma/src/PatchFinder_arm64.h; sourceTree = "<group>"; };
-		9BBC22AD2E32466E00354848 /* PatchFinder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PatchFinder.c; path = ../../BaseBin/ChOma/src/PatchFinder.c; sourceTree = "<group>"; };
-		9BBC22AE2E32466E00354848 /* DyldSharedCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DyldSharedCache.h; path = ../../BaseBin/ChOma/src/DyldSharedCache.h; sourceTree = "<group>"; };
-		9BBC22AF2E32466E00354848 /* MemoryStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MemoryStream.c; path = ../../BaseBin/ChOma/src/MemoryStream.c; sourceTree = "<group>"; };
-		9BBC22B02E32466F00354848 /* Base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Base64.c; path = ../../BaseBin/ChOma/src/Base64.c; sourceTree = "<group>"; };
-		9BBC22B12E32466F00354848 /* CSBlob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSBlob.h; path = ../../BaseBin/ChOma/src/CSBlob.h; sourceTree = "<group>"; };
-		9BBC22B22E32466F00354848 /* arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arm64.c; path = ../../BaseBin/ChOma/src/arm64.c; sourceTree = "<group>"; };
-		9BBC22B32E32466F00354848 /* CachePatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CachePatching.h; path = ../../BaseBin/ChOma/src/CachePatching.h; sourceTree = "<group>"; };
-		9BBC22B42E32466F00354848 /* Fat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Fat.c; path = ../../BaseBin/ChOma/src/Fat.c; sourceTree = "<group>"; };
-		9BBC22B52E32466F00354848 /* CodeDirectory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CodeDirectory.c; path = ../../BaseBin/ChOma/src/CodeDirectory.c; sourceTree = "<group>"; };
-		9BBC22B62E32466F00354848 /* Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Host.h; path = ../../BaseBin/ChOma/src/Host.h; sourceTree = "<group>"; };
-		9BBC22B72E32466F00354848 /* Host.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Host.c; path = ../../BaseBin/ChOma/src/Host.c; sourceTree = "<group>"; };
-		9BBC22B82E32466F00354848 /* Entitlements.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Entitlements.c; path = ../../BaseBin/ChOma/src/Entitlements.c; sourceTree = "<group>"; };
-		9BBC22B92E32467000354848 /* PatchFinder_arm64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = PatchFinder_arm64.c; path = ../../BaseBin/ChOma/src/PatchFinder_arm64.c; sourceTree = "<group>"; };
-		9BBC22BA2E32467000354848 /* Util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Util.c; path = ../../BaseBin/ChOma/src/Util.c; sourceTree = "<group>"; };
-		9BBC22BB2E32467000354848 /* BufferedStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BufferedStream.h; path = ../../BaseBin/ChOma/src/BufferedStream.h; sourceTree = "<group>"; };
-		9BBC22BC2E32467000354848 /* CSBlob.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CSBlob.c; path = ../../BaseBin/ChOma/src/CSBlob.c; sourceTree = "<group>"; };
-		9BBC22BD2E32467000354848 /* MemoryStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MemoryStream.h; path = ../../BaseBin/ChOma/src/MemoryStream.h; sourceTree = "<group>"; };
-		9BBC22BE2E32467000354848 /* fixup-chains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "fixup-chains.h"; path = "../../BaseBin/ChOma/src/fixup-chains.h"; sourceTree = "<group>"; };
-		9BBC22BF2E32467000354848 /* CodeDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CodeDirectory.h; path = ../../BaseBin/ChOma/src/CodeDirectory.h; sourceTree = "<group>"; };
-		9BBC22C02E32467100354848 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../../BaseBin/ChOma/src/Util.h; sourceTree = "<group>"; };
-		9BBC22C12E32467100354848 /* Entitlements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entitlements.h; path = ../../BaseBin/ChOma/src/Entitlements.h; sourceTree = "<group>"; };
-		9BBC22C22E32467100354848 /* MachOByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MachOByteOrder.h; path = ../../BaseBin/ChOma/src/MachOByteOrder.h; sourceTree = "<group>"; };
-		9BBC22C32E32467100354848 /* BufferedStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = BufferedStream.c; path = ../../BaseBin/ChOma/src/BufferedStream.c; sourceTree = "<group>"; };
-		9BBC22C42E32467100354848 /* arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = arm64.h; path = ../../BaseBin/ChOma/src/arm64.h; sourceTree = "<group>"; };
-		9BBC22C52E32467100354848 /* FileStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = FileStream.c; path = ../../BaseBin/ChOma/src/FileStream.c; sourceTree = "<group>"; };
-		9BBC22C62E32467100354848 /* MachO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MachO.c; path = ../../BaseBin/ChOma/src/MachO.c; sourceTree = "<group>"; };
-		9BBC22C72E32467100354848 /* DER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DER.h; path = ../../BaseBin/ChOma/src/DER.h; sourceTree = "<group>"; };
-		9BBC22C82E32467100354848 /* DyldSharedCache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = DyldSharedCache.c; path = ../../BaseBin/ChOma/src/DyldSharedCache.c; sourceTree = "<group>"; };
-		9BBC22C92E32467200354848 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = ../../BaseBin/ChOma/src/Base64.h; sourceTree = "<group>"; };
-		9BBC22CA2E32467200354848 /* MachOLoadCommand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = MachOLoadCommand.c; path = ../../BaseBin/ChOma/src/MachOLoadCommand.c; sourceTree = "<group>"; };
 		C075B0CB2B8F2BCE009A26BB /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -875,11 +952,11 @@
 			files = (
 				8C029F6B2B4E320E0071DE58 /* libz.tbd in Frameworks */,
 				9BBC22972E32449A00354848 /* libarchive.2.tbd in Frameworks */,
-				8CDD08472B4F6DD800A32B61 /* libxpf.dylib in Frameworks */,
 				9BBC22102E3241DF00354848 /* libjailbreak.dylib in Frameworks */,
+				9B3183052E3333FC00F6D4BF /* libxpf.dylib in Frameworks */,
 				9B9E5BA52E32009E000AE2FD /* libbsm.tbd in Frameworks */,
-				8CDD08462B4F6DD800A32B61 /* libchoma.dylib in Frameworks */,
 				8CC139832B53E05300230143 /* IOKit.framework in Frameworks */,
+				9B3183012E3333FB00F6D4BF /* libchoma.dylib in Frameworks */,
 				8C029F682B4E31D50071DE58 /* libMobileGestalt.tbd in Frameworks */,
 				8C46D7252B588973002899DB /* libzstd in Frameworks */,
 				8CDD08412B4F6D8700A32B61 /* libgrabkernel2.a in Frameworks */,
@@ -902,6 +979,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B3182722E3330A900F6D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3182772E3330AA00F6D4BF /* UIKit.framework in Frameworks */,
+				9B3182782E3330AA00F6D4BF /* Foundation.framework in Frameworks */,
+				9B3182FC2E3333CF00F6D4BF /* libchoma.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B31828C2E33312B00F6D4BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3182912E33312B00F6D4BF /* UIKit.framework in Frameworks */,
+				9B3182922E33312B00F6D4BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BBC21F82E32412300354848 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -911,6 +1007,7 @@
 				9BBC22992E3244C700354848 /* libarchive.2.tbd in Frameworks */,
 				9BBC229B2E32450B00354848 /* libbsm.tbd in Frameworks */,
 				9BBC22952E32445400354848 /* IOKit.framework in Frameworks */,
+				9B3182DB2E3332C600F6D4BF /* libchoma.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1337,6 +1434,8 @@
 			children = (
 				8C7198172ABF0E82003C6658 /* Dopamine */,
 				9BBC22002E32412300354848 /* libjailbreak */,
+				9B31827A2E3330AA00F6D4BF /* libxpf */,
+				9B3182942E33312C00F6D4BF /* libchoma */,
 				8C7198162ABF0E82003C6658 /* Products */,
 				8C029F642B4E2E7D0071DE58 /* Frameworks */,
 			);
@@ -1352,6 +1451,8 @@
 				8C5FA8D42BDD36B6008C246F /* weightBufs.framework */,
 				8C5FA8E42BDD36BF008C246F /* multicast_bytecopy.framework */,
 				9BBC21FC2E32412300354848 /* libjailbreak.dylib */,
+				9B3182762E3330A900F6D4BF /* libxpf.dylib */,
+				9B3182902E33312B00F6D4BF /* libchoma.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1454,10 +1555,84 @@
 			path = kfd;
 			sourceTree = "<group>";
 		};
+		9B31827A2E3330AA00F6D4BF /* libxpf */ = {
+			isa = PBXGroup;
+			children = (
+				9B3182E12E3332F300F6D4BF /* bad_recovery.c */,
+				9B3182E02E3332F300F6D4BF /* bad_recovery.h */,
+				9B3182E72E3332F400F6D4BF /* cli */,
+				9B3182E52E3332F400F6D4BF /* common.c */,
+				9B3182EC2E3332F500F6D4BF /* common.h */,
+				9B3182ED2E3332F500F6D4BF /* decompress.c */,
+				9B3182EE2E3332F500F6D4BF /* decompress.h */,
+				9B3182E92E3332F400F6D4BF /* decompress.LICENSE */,
+				9B3182E62E3332F400F6D4BF /* non_ppl.c */,
+				9B3182EA2E3332F500F6D4BF /* non_ppl.h */,
+				9B3182E22E3332F300F6D4BF /* ppl.c */,
+				9B3182EB2E3332F500F6D4BF /* ppl.h */,
+				9B3182E32E3332F400F6D4BF /* xpf.c */,
+				9B3182E42E3332F400F6D4BF /* xpf.h */,
+			);
+			path = libxpf;
+			sourceTree = "<group>";
+		};
+		9B3182942E33312C00F6D4BF /* libchoma */ = {
+			isa = PBXGroup;
+			children = (
+				9B3183152E33350700F6D4BF /* arm64.c */,
+				9B3183172E33350900F6D4BF /* arm64.h */,
+				9B31831A2E33350900F6D4BF /* Base64.c */,
+				9B31831B2E33350900F6D4BF /* Base64.h */,
+				9B31831E2E33350A00F6D4BF /* BufferedStream.c */,
+				9B31830B2E33350600F6D4BF /* BufferedStream.h */,
+				9B3183292E33350D00F6D4BF /* CachePatching.h */,
+				9B31832C2E33350D00F6D4BF /* CodeDirectory.c */,
+				9B31831C2E33350900F6D4BF /* CodeDirectory.h */,
+				9B3183202E33350A00F6D4BF /* CSBlob.c */,
+				9B3183112E33350700F6D4BF /* CSBlob.h */,
+				9B3183182E33350900F6D4BF /* DER.c */,
+				9B31832B2E33350D00F6D4BF /* DER.h */,
+				9B3183162E33350800F6D4BF /* dyld_cache_format.h */,
+				9B3183222E33350B00F6D4BF /* DyldSharedCache.c */,
+				9B3183192E33350900F6D4BF /* DyldSharedCache.h */,
+				9B3183212E33350B00F6D4BF /* Entitlements.c */,
+				9B31830C2E33350600F6D4BF /* Entitlements.h */,
+				9B3183252E33350C00F6D4BF /* Fat.c */,
+				9B3183282E33350C00F6D4BF /* Fat.h */,
+				9B3183122E33350700F6D4BF /* FileStream.c */,
+				9B3183142E33350700F6D4BF /* FileStream.h */,
+				9B3183232E33350B00F6D4BF /* fixup-chains.h */,
+				9B3183092E33350600F6D4BF /* Host.c */,
+				9B31830D2E33350600F6D4BF /* Host.h */,
+				9B3183272E33350C00F6D4BF /* MachO.c */,
+				9B31830A2E33350600F6D4BF /* MachO.h */,
+				9B31830E2E33350700F6D4BF /* MachOByteOrder.h */,
+				9B31832A2E33350D00F6D4BF /* MachOLoadCommand.c */,
+				9B31831D2E33350A00F6D4BF /* MachOLoadCommand.h */,
+				9B31832D2E33350E00F6D4BF /* MemoryStream.c */,
+				9B31830F2E33350700F6D4BF /* MemoryStream.h */,
+				9B31831F2E33350A00F6D4BF /* PatchFinder_arm64.c */,
+				9B3183132E33350700F6D4BF /* PatchFinder_arm64.h */,
+				9B3183242E33350C00F6D4BF /* PatchFinder.c */,
+				9B31832E2E33350E00F6D4BF /* PatchFinder.h */,
+				9B3183102E33350700F6D4BF /* Util.c */,
+				9B3183262E33350C00F6D4BF /* Util.h */,
+			);
+			path = libchoma;
+			sourceTree = "<group>";
+		};
+		9B3182E72E3332F400F6D4BF /* cli */ = {
+			isa = PBXGroup;
+			children = (
+				9B3182E82E3332F400F6D4BF /* main.c */,
+			);
+			name = cli;
+			path = ../../BaseBin/XPF/src/cli;
+			sourceTree = "<group>";
+		};
 		9BBC22002E32412300354848 /* libjailbreak */ = {
 			isa = PBXGroup;
 			children = (
-				9BBC22A42E32465900354848 /* ChOma */,
 				9BBC22372E32425D00354848 /* basebin_gen.h */,
 				9BBC22142E32425100354848 /* basebin_gen.m */,
 				9BBC22182E32425200354848 /* carboncopy.h */,
@@ -1512,51 +1687,6 @@
 				9BBC22162E32425200354848 /* util.m */,
 			);
 			path = libjailbreak;
-			sourceTree = "<group>";
-		};
-		9BBC22A42E32465900354848 /* ChOma */ = {
-			isa = PBXGroup;
-			children = (
-				9BBC22B22E32466F00354848 /* arm64.c */,
-				9BBC22C42E32467100354848 /* arm64.h */,
-				9BBC22B02E32466F00354848 /* Base64.c */,
-				9BBC22C92E32467200354848 /* Base64.h */,
-				9BBC22C32E32467100354848 /* BufferedStream.c */,
-				9BBC22BB2E32467000354848 /* BufferedStream.h */,
-				9BBC22B32E32466F00354848 /* CachePatching.h */,
-				9BBC22B52E32466F00354848 /* CodeDirectory.c */,
-				9BBC22BF2E32467000354848 /* CodeDirectory.h */,
-				9BBC22BC2E32467000354848 /* CSBlob.c */,
-				9BBC22B12E32466F00354848 /* CSBlob.h */,
-				9BBC22A82E32466D00354848 /* DER.c */,
-				9BBC22C72E32467100354848 /* DER.h */,
-				9BBC22A92E32466E00354848 /* dyld_cache_format.h */,
-				9BBC22C82E32467100354848 /* DyldSharedCache.c */,
-				9BBC22AE2E32466E00354848 /* DyldSharedCache.h */,
-				9BBC22B82E32466F00354848 /* Entitlements.c */,
-				9BBC22C12E32467100354848 /* Entitlements.h */,
-				9BBC22B42E32466F00354848 /* Fat.c */,
-				9BBC22AA2E32466E00354848 /* Fat.h */,
-				9BBC22C52E32467100354848 /* FileStream.c */,
-				9BBC22AB2E32466E00354848 /* FileStream.h */,
-				9BBC22BE2E32467000354848 /* fixup-chains.h */,
-				9BBC22B72E32466F00354848 /* Host.c */,
-				9BBC22B62E32466F00354848 /* Host.h */,
-				9BBC22C62E32467100354848 /* MachO.c */,
-				9BBC22A72E32466D00354848 /* MachO.h */,
-				9BBC22C22E32467100354848 /* MachOByteOrder.h */,
-				9BBC22CA2E32467200354848 /* MachOLoadCommand.c */,
-				9BBC22A52E32466D00354848 /* MachOLoadCommand.h */,
-				9BBC22AF2E32466E00354848 /* MemoryStream.c */,
-				9BBC22BD2E32467000354848 /* MemoryStream.h */,
-				9BBC22B92E32467000354848 /* PatchFinder_arm64.c */,
-				9BBC22AC2E32466E00354848 /* PatchFinder_arm64.h */,
-				9BBC22AD2E32466E00354848 /* PatchFinder.c */,
-				9BBC22A62E32466D00354848 /* PatchFinder.h */,
-				9BBC22BA2E32467000354848 /* Util.c */,
-				9BBC22C02E32467100354848 /* Util.h */,
-			);
-			name = ChOma;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1657,19 +1787,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B3182732E3330A900F6D4BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3182F72E3332F500F6D4BF /* non_ppl.h in Headers */,
+				9B3182FB2E3332F500F6D4BF /* decompress.h in Headers */,
+				9B3182F92E3332F500F6D4BF /* common.h in Headers */,
+				9B3182EF2E3332F500F6D4BF /* bad_recovery.h in Headers */,
+				9B3182F32E3332F500F6D4BF /* xpf.h in Headers */,
+				9B3182F82E3332F500F6D4BF /* ppl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B31828D2E33312B00F6D4BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B31834E2E33350E00F6D4BF /* Fat.h in Headers */,
+				9B3183302E33350E00F6D4BF /* MachO.h in Headers */,
+				9B3183512E33350E00F6D4BF /* DER.h in Headers */,
+				9B31833D2E33350E00F6D4BF /* arm64.h in Headers */,
+				9B3183412E33350E00F6D4BF /* Base64.h in Headers */,
+				9B3183492E33350E00F6D4BF /* fixup-chains.h in Headers */,
+				9B3183352E33350E00F6D4BF /* MemoryStream.h in Headers */,
+				9B31833F2E33350E00F6D4BF /* DyldSharedCache.h in Headers */,
+				9B3183392E33350E00F6D4BF /* PatchFinder_arm64.h in Headers */,
+				9B3183322E33350E00F6D4BF /* Entitlements.h in Headers */,
+				9B3183332E33350E00F6D4BF /* Host.h in Headers */,
+				9B31833A2E33350E00F6D4BF /* FileStream.h in Headers */,
+				9B3183542E33350E00F6D4BF /* PatchFinder.h in Headers */,
+				9B3183372E33350E00F6D4BF /* CSBlob.h in Headers */,
+				9B31833C2E33350E00F6D4BF /* dyld_cache_format.h in Headers */,
+				9B31834F2E33350E00F6D4BF /* CachePatching.h in Headers */,
+				9B3183422E33350E00F6D4BF /* CodeDirectory.h in Headers */,
+				9B3183312E33350E00F6D4BF /* BufferedStream.h in Headers */,
+				9B3183342E33350E00F6D4BF /* MachOByteOrder.h in Headers */,
+				9B31834C2E33350E00F6D4BF /* Util.h in Headers */,
+				9B3183432E33350E00F6D4BF /* MachOLoadCommand.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BBC21F92E32412300354848 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BBC22D02E32467200354848 /* Fat.h in Headers */,
 				9BBC22762E32426100354848 /* jbserver.h in Headers */,
-				9BBC22E62E32467200354848 /* Util.h in Headers */,
-				9BBC22EF2E32467200354848 /* Base64.h in Headers */,
-				9BBC22D12E32467200354848 /* FileStream.h in Headers */,
 				9BBC226B2E32426000354848 /* basebin_gen.h in Headers */,
 				9BBC22792E32426100354848 /* jbclient_mach.h in Headers */,
-				9BBC22ED2E32467200354848 /* DER.h in Headers */,
-				9BBC22E12E32467200354848 /* BufferedStream.h in Headers */,
 				9BBC22712E32426100354848 /* primitives.h in Headers */,
 				9BBC22572E32426000354848 /* trustcache.h in Headers */,
 				9BBC22622E32426000354848 /* physrw_pte.h in Headers */,
@@ -1678,38 +1843,23 @@
 				9BBC226E2E32426000354848 /* signatures.h in Headers */,
 				9BBC22632E32426000354848 /* jbserver_domains.h in Headers */,
 				9BBC227B2E32426100354848 /* kcall_Fugu14.h in Headers */,
-				9BBC22DC2E32467200354848 /* Host.h in Headers */,
-				9BBC22D92E32467200354848 /* CachePatching.h in Headers */,
 				9BBC22652E32426000354848 /* primitives_external.h in Headers */,
-				9BBC22E32E32467200354848 /* MemoryStream.h in Headers */,
 				9BBC224D2E32426000354848 /* machine_info.h in Headers */,
 				9BBC22702E32426100354848 /* pvh.h in Headers */,
 				9BBC226C2E32426000354848 /* kcall_arm64.h in Headers */,
 				9BBC22722E32426100354848 /* info.h in Headers */,
-				9BBC22EA2E32467200354848 /* arm64.h in Headers */,
 				9BBC22742E32426100354848 /* primitives_IOSurface.h in Headers */,
-				9BBC22CF2E32467200354848 /* dyld_cache_format.h in Headers */,
 				9BBC226F2E32426100354848 /* pte.h in Headers */,
 				9BBC224C2E32426000354848 /* carboncopy.h in Headers */,
 				9BBC225F2E32426000354848 /* physrw.h in Headers */,
 				9BBC22502E32426000354848 /* util.h in Headers */,
 				9BBC22692E32426000354848 /* libjailbreak.h in Headers */,
-				9BBC22E42E32467200354848 /* fixup-chains.h in Headers */,
 				9BBC224E2E32426000354848 /* translation.h in Headers */,
-				9BBC22E52E32467200354848 /* CodeDirectory.h in Headers */,
 				9BBC22752E32426100354848 /* codesign.h in Headers */,
-				9BBC22D72E32467200354848 /* CSBlob.h in Headers */,
-				9BBC22D42E32467200354848 /* DyldSharedCache.h in Headers */,
 				9BBC22582E32426000354848 /* trustcache_structs.h in Headers */,
 				9BBC227A2E32426100354848 /* jbclient_xpc.h in Headers */,
-				9BBC22E82E32467200354848 /* MachOByteOrder.h in Headers */,
 				9BBC22642E32426000354848 /* jbroot.h in Headers */,
-				9BBC22CC2E32467200354848 /* PatchFinder.h in Headers */,
-				9BBC22E72E32467200354848 /* Entitlements.h in Headers */,
-				9BBC22CD2E32467200354848 /* MachO.h in Headers */,
-				9BBC22CB2E32467200354848 /* MachOLoadCommand.h in Headers */,
 				9BBC225B2E32426000354848 /* kernel.h in Headers */,
-				9BBC22D22E32467200354848 /* PatchFinder_arm64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1807,7 +1957,6 @@
 				8C7198112ABF0E82003C6658 /* Sources */,
 				8C7198122ABF0E82003C6658 /* Frameworks */,
 				8C7198132ABF0E82003C6658 /* Resources */,
-				8C029F5C2B4E21F50071DE58 /* Embed Libraries */,
 				8CDD07AE2B4F619000A32B61 /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -1818,6 +1967,8 @@
 				8C05B0082B63152B001A7CF3 /* PBXTargetDependency */,
 				8C5FA8D92BDD36B6008C246F /* PBXTargetDependency */,
 				8C5FA8E92BDD36BF008C246F /* PBXTargetDependency */,
+				9B3183042E3333FC00F6D4BF /* PBXTargetDependency */,
+				9B3183082E3333FC00F6D4BF /* PBXTargetDependency */,
 			);
 			name = Dopamine;
 			packageProductDependencies = (
@@ -1848,6 +1999,42 @@
 			productReference = 8CDD07A72B4F619000A32B61 /* kfd.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		9B3182752E3330A900F6D4BF /* libxpf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3182872E3330AA00F6D4BF /* Build configuration list for PBXNativeTarget "libxpf" */;
+			buildPhases = (
+				9B3182712E3330A900F6D4BF /* Sources */,
+				9B3182722E3330A900F6D4BF /* Frameworks */,
+				9B3182732E3330A900F6D4BF /* Headers */,
+				9B3183002E3333D000F6D4BF /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3182FF2E3333CF00F6D4BF /* PBXTargetDependency */,
+			);
+			name = libxpf;
+			productName = libxpf;
+			productReference = 9B3182762E3330A900F6D4BF /* libxpf.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		9B31828F2E33312B00F6D4BF /* libchoma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B3182A12E33312C00F6D4BF /* Build configuration list for PBXNativeTarget "libchoma" */;
+			buildPhases = (
+				9B31828B2E33312B00F6D4BF /* Sources */,
+				9B31828C2E33312B00F6D4BF /* Frameworks */,
+				9B31828D2E33312B00F6D4BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libchoma;
+			productName = libchoma;
+			productReference = 9B3182902E33312B00F6D4BF /* libchoma.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		9BBC21FB2E32412300354848 /* libjailbreak */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BBC220D2E32412300354848 /* Build configuration list for PBXNativeTarget "libjailbreak" */;
@@ -1855,10 +2042,12 @@
 				9BBC21F72E32412300354848 /* Sources */,
 				9BBC21F82E32412300354848 /* Frameworks */,
 				9BBC21F92E32412300354848 /* Headers */,
+				9B3182DF2E3332C600F6D4BF /* Embed Libraries */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9B3182DE2E3332C600F6D4BF /* PBXTargetDependency */,
 			);
 			name = libjailbreak;
 			productName = libjailbreak;
@@ -1891,6 +2080,12 @@
 					};
 					8CDD07A62B4F619000A32B61 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					9B3182752E3330A900F6D4BF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					9B31828F2E33312B00F6D4BF = {
+						CreatedOnToolsVersion = 15.2;
 					};
 					9BBC21FB2E32412300354848 = {
 						CreatedOnToolsVersion = 15.2;
@@ -1945,6 +2140,8 @@
 				8C5FA8D32BDD36B6008C246F /* weightBufs */,
 				8C5FA8E32BDD36BF008C246F /* multicast_bytecopy */,
 				9BBC21FB2E32412300354848 /* libjailbreak */,
+				9B3182752E3330A900F6D4BF /* libxpf */,
+				9B31828F2E33312B00F6D4BF /* libchoma */,
 			);
 		};
 /* End PBXProject section */
@@ -2233,46 +2430,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B3182712E3330A900F6D4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3182F22E3332F500F6D4BF /* xpf.c in Sources */,
+				9B3182F52E3332F500F6D4BF /* non_ppl.c in Sources */,
+				9B3182F62E3332F500F6D4BF /* main.c in Sources */,
+				9B3182F12E3332F500F6D4BF /* ppl.c in Sources */,
+				9B3182FA2E3332F500F6D4BF /* decompress.c in Sources */,
+				9B3182F42E3332F500F6D4BF /* common.c in Sources */,
+				9B3182F02E3332F500F6D4BF /* bad_recovery.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B31828B2E33312B00F6D4BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3183522E33350E00F6D4BF /* CodeDirectory.c in Sources */,
+				9B31832F2E33350E00F6D4BF /* Host.c in Sources */,
+				9B3183482E33350E00F6D4BF /* DyldSharedCache.c in Sources */,
+				9B3183382E33350E00F6D4BF /* FileStream.c in Sources */,
+				9B3183402E33350E00F6D4BF /* Base64.c in Sources */,
+				9B3183502E33350E00F6D4BF /* MachOLoadCommand.c in Sources */,
+				9B31833E2E33350E00F6D4BF /* DER.c in Sources */,
+				9B3183462E33350E00F6D4BF /* CSBlob.c in Sources */,
+				9B31834B2E33350E00F6D4BF /* Fat.c in Sources */,
+				9B31834A2E33350E00F6D4BF /* PatchFinder.c in Sources */,
+				9B3183472E33350E00F6D4BF /* Entitlements.c in Sources */,
+				9B31833B2E33350E00F6D4BF /* arm64.c in Sources */,
+				9B3183532E33350E00F6D4BF /* MemoryStream.c in Sources */,
+				9B31834D2E33350E00F6D4BF /* MachO.c in Sources */,
+				9B3183452E33350E00F6D4BF /* PatchFinder_arm64.c in Sources */,
+				9B3183442E33350E00F6D4BF /* BufferedStream.c in Sources */,
+				9B3183362E33350E00F6D4BF /* Util.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BBC21F72E32412300354848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9BBC22672E32426000354848 /* jbserver.c in Sources */,
-				9BBC22EB2E32467200354848 /* FileStream.c in Sources */,
-				9BBC22EE2E32467200354848 /* DyldSharedCache.c in Sources */,
-				9BBC22E92E32467200354848 /* BufferedStream.c in Sources */,
-				9BBC22F02E32467200354848 /* MachOLoadCommand.c in Sources */,
 				9BBC225C2E32426000354848 /* jbclient_xpc.c in Sources */,
 				9BBC22512E32426000354848 /* physrw_pte.c in Sources */,
-				9BBC22DA2E32467200354848 /* Fat.c in Sources */,
-				9BBC22EC2E32467200354848 /* MachO.c in Sources */,
 				9BBC224F2E32426000354848 /* util.c in Sources */,
-				9BBC22D82E32467200354848 /* arm64.c in Sources */,
 				9BBC225D2E32426000354848 /* kcall_Fugu14.S in Sources */,
 				9BBC22492E32426000354848 /* main.c in Sources */,
-				9BBC22D62E32467200354848 /* Base64.c in Sources */,
 				9BBC22562E32426000354848 /* jbserver_boomerang.c in Sources */,
 				9BBC22602E32426000354848 /* physrw.c in Sources */,
 				9BBC224B2E32426000354848 /* kcall_Fugu14.c in Sources */,
-				9BBC22D52E32467200354848 /* MemoryStream.c in Sources */,
 				9BBC22732E32426100354848 /* jbroot.c in Sources */,
 				9BBC22552E32426000354848 /* signatures.c in Sources */,
 				9BBC22682E32426000354848 /* kernel.c in Sources */,
 				9BBC22592E32426000354848 /* info.c in Sources */,
-				9BBC22DB2E32467200354848 /* CodeDirectory.c in Sources */,
 				9BBC224A2E32426000354848 /* util.m in Sources */,
-				9BBC22DF2E32467200354848 /* PatchFinder_arm64.c in Sources */,
-				9BBC22E02E32467200354848 /* Util.c in Sources */,
 				9BBC22612E32426000354848 /* jbclient_mach.c in Sources */,
-				9BBC22E22E32467200354848 /* CSBlob.c in Sources */,
 				9BBC22542E32426000354848 /* primitives_IOSurface.m in Sources */,
-				9BBC22DD2E32467200354848 /* Host.c in Sources */,
 				9BBC226A2E32426000354848 /* kalloc_pt.m in Sources */,
-				9BBC22CE2E32467200354848 /* DER.c in Sources */,
 				9BBC22772E32426100354848 /* codesign.m in Sources */,
 				9BBC22532E32426000354848 /* primitives.c in Sources */,
-				9BBC22D32E32467200354848 /* PatchFinder.c in Sources */,
-				9BBC22DE2E32467200354848 /* Entitlements.c in Sources */,
 				9BBC226D2E32426000354848 /* translation.c in Sources */,
 				9BBC225E2E32426000354848 /* kcall_arm64.c in Sources */,
 				9BBC22482E32426000354848 /* basebin_gen.m in Sources */,
@@ -2308,6 +2526,26 @@
 			isa = PBXTargetDependency;
 			target = 8CDD07A62B4F619000A32B61 /* kfd */;
 			targetProxy = 8CDD07AB2B4F619000A32B61 /* PBXContainerItemProxy */;
+		};
+		9B3182DE2E3332C600F6D4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B31828F2E33312B00F6D4BF /* libchoma */;
+			targetProxy = 9B3182DD2E3332C600F6D4BF /* PBXContainerItemProxy */;
+		};
+		9B3182FF2E3333CF00F6D4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B31828F2E33312B00F6D4BF /* libchoma */;
+			targetProxy = 9B3182FE2E3333CF00F6D4BF /* PBXContainerItemProxy */;
+		};
+		9B3183042E3333FC00F6D4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B31828F2E33312B00F6D4BF /* libchoma */;
+			targetProxy = 9B3183032E3333FC00F6D4BF /* PBXContainerItemProxy */;
+		};
+		9B3183082E3333FC00F6D4BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B3182752E3330A900F6D4BF /* libxpf */;
+			targetProxy = 9B3183072E3333FC00F6D4BF /* PBXContainerItemProxy */;
 		};
 		9BBC227F2E32426400354848 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2937,6 +3175,186 @@
 			};
 			name = Release;
 		};
+		9B3182882E3330AA00F6D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/Frameworks";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+					"$(SRCROOT)/../BaseBin/.include",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libxpf\\\"\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libxpf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9B3182892E3330AA00F6D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/Frameworks";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+					"$(SRCROOT)/../BaseBin/.include",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libxpf\\\"\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libxpf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B3182A22E33312C00F6D4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/Frameworks";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = "@executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libchoma\\\"\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libchoma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		9B3182A32E33312C00F6D4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@executable_path/Frameworks";
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				INSTALL_PATH = "@executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libchoma\\\"\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libchoma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		9BBC220E2E32412300354848 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3094,6 +3512,24 @@
 			buildConfigurations = (
 				8CDD07B02B4F619000A32B61 /* Debug */,
 				8CDD07B12B4F619000A32B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3182872E3330AA00F6D4BF /* Build configuration list for PBXNativeTarget "libxpf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3182882E3330AA00F6D4BF /* Debug */,
+				9B3182892E3330AA00F6D4BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B3182A12E33312C00F6D4BF /* Build configuration list for PBXNativeTarget "libchoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B3182A22E33312C00F6D4BF /* Debug */,
+				9B3182A32E33312C00F6D4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
