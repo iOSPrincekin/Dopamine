@@ -3153,6 +3153,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3F7G5M76J;
@@ -3177,17 +3178,6 @@
 				INSTALL_PATH = "@executable_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
-				MonkeyDevBuildPackageOnAnyBuild = NO;
-				MonkeyDevClearUiCacheOnInstall = NO;
-				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
-				MonkeyDevInstallOnAnyBuild = YES;
-				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libxpf\\\"\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libxpf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3200,6 +3190,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
@@ -3224,17 +3215,6 @@
 				INSTALL_PATH = "@executable_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
-				MonkeyDevBuildPackageOnAnyBuild = NO;
-				MonkeyDevClearUiCacheOnInstall = NO;
-				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
-				MonkeyDevInstallOnAnyBuild = YES;
-				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libxpf\\\"\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libxpf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3246,6 +3226,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3F7G5M76J;
@@ -3267,17 +3248,6 @@
 				INSTALL_PATH = "@executable_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
-				MonkeyDevBuildPackageOnAnyBuild = NO;
-				MonkeyDevClearUiCacheOnInstall = NO;
-				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
-				MonkeyDevInstallOnAnyBuild = YES;
-				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libchoma\\\"\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libchoma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3290,6 +3260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
@@ -3311,17 +3282,6 @@
 				INSTALL_PATH = "@executable_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
-				MonkeyDevBuildPackageOnAnyBuild = NO;
-				MonkeyDevClearUiCacheOnInstall = NO;
-				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
-				MonkeyDevInstallOnAnyBuild = YES;
-				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libchoma\\\"\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libchoma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3333,6 +3293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3F7G5M76J;
@@ -3358,17 +3319,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
-				MonkeyDevBuildPackageOnAnyBuild = NO;
-				MonkeyDevClearUiCacheOnInstall = NO;
-				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
-				MonkeyDevInstallOnAnyBuild = YES;
-				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libjailbreak\\\"\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libjailbreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3381,6 +3331,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
@@ -3406,17 +3357,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_DYLIB_INSTALL_NAME = "$(DYLIB_INSTALL_NAME_BASE:standardizepath)/$(EXECUTABLE_PATH)";
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
-				MonkeyDevBuildPackageOnAnyBuild = NO;
-				MonkeyDevClearUiCacheOnInstall = NO;
-				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
-				MonkeyDevInstallOnAnyBuild = YES;
-				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
 				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"libjailbreak\\\"\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.opa334.libjailbreak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
