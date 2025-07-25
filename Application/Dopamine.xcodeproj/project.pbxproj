@@ -377,20 +377,6 @@
 			remoteGlobalIDString = 9B31828F2E33312B00F6D4BF;
 			remoteInfo = libchoma;
 		};
-		9B3183032E3333FC00F6D4BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B31828F2E33312B00F6D4BF;
-			remoteInfo = libchoma;
-		};
-		9B3183072E3333FC00F6D4BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B3182752E3330A900F6D4BF;
-			remoteInfo = libxpf;
-		};
 		9BBC227E2E32426400354848 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8C71980D2ABF0E82003C6658 /* Project object */;
@@ -1967,8 +1953,6 @@
 				8C05B0082B63152B001A7CF3 /* PBXTargetDependency */,
 				8C5FA8D92BDD36B6008C246F /* PBXTargetDependency */,
 				8C5FA8E92BDD36BF008C246F /* PBXTargetDependency */,
-				9B3183042E3333FC00F6D4BF /* PBXTargetDependency */,
-				9B3183082E3333FC00F6D4BF /* PBXTargetDependency */,
 			);
 			name = Dopamine;
 			packageProductDependencies = (
@@ -2537,16 +2521,6 @@
 			target = 9B31828F2E33312B00F6D4BF /* libchoma */;
 			targetProxy = 9B3182FE2E3333CF00F6D4BF /* PBXContainerItemProxy */;
 		};
-		9B3183042E3333FC00F6D4BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B31828F2E33312B00F6D4BF /* libchoma */;
-			targetProxy = 9B3183032E3333FC00F6D4BF /* PBXContainerItemProxy */;
-		};
-		9B3183082E3333FC00F6D4BF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B3182752E3330A900F6D4BF /* libxpf */;
-			targetProxy = 9B3183072E3333FC00F6D4BF /* PBXContainerItemProxy */;
-		};
 		9BBC227F2E32426400354848 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9BBC21FB2E32412300354848 /* libjailbreak */;
@@ -2866,7 +2840,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3Z56NQJ65R;
+				DEVELOPMENT_TEAM = R3F7G5M76J;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@executable_path/Frameworks";
